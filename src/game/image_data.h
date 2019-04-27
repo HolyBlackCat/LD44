@@ -7,8 +7,9 @@ struct Images
 {
     Reflect(Images)
     (
-        (TextureAtlas::Image)(tiles,human),
+        (TextureAtlas::Image)(tiles,humans,effects),
     )
 
+    Images() {}
     Images(const TextureAtlas &atlas);
 };

@@ -1,0 +1,2603 @@
+LD44.exe:	file format COFF-x86-64
+
+0x000ebb11: DW_TAG_class_type
+              DW_AT_calling_convention	(DW_CC_pass_by_reference)
+              DW_AT_name	("vector<DamageController::Melee, std::allocator<DamageController::Melee> >")
+              DW_AT_byte_size	(0x18)
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(339)
+
+0x000ebc16: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EEaSERKS3_")
+              DW_AT_name	("operator=")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(582)
+              DW_AT_type	(0x00113064 "vector<DamageController::Melee, std::allocator<DamageController::Melee> >&")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ebc32: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EEaSEOS3_")
+              DW_AT_name	("operator=")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(596)
+              DW_AT_type	(0x00113064 "vector<DamageController::Melee, std::allocator<DamageController::Melee> >&")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ebc4e: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EEaSESt16initializer_listIS1_E")
+              DW_AT_name	("operator=")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(617)
+              DW_AT_type	(0x00113064 "vector<DamageController::Melee, std::allocator<DamageController::Melee> >&")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ebc6a: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE6assignEyRKS1_")
+              DW_AT_name	("assign")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(636)
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ebc87: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE6assignESt16initializer_listIS1_E")
+              DW_AT_name	("assign")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(681)
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ebc9f: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE5beginEv")
+              DW_AT_name	("begin")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(698)
+              DW_AT_type	(0x000ebcb6 "iterator")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ebcc2: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNKSt6vectorIN16DamageController5MeleeESaIS1_EE5beginEv")
+              DW_AT_name	("begin")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(707)
+              DW_AT_type	(0x000ebcd9 "const_iterator")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ebce5: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE3endEv")
+              DW_AT_name	("end")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(716)
+              DW_AT_type	(0x000ebcb6 "iterator")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ebcfc: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNKSt6vectorIN16DamageController5MeleeESaIS1_EE3endEv")
+              DW_AT_name	("end")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(725)
+              DW_AT_type	(0x000ebcd9 "const_iterator")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ebd13: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE6rbeginEv")
+              DW_AT_name	("rbegin")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(734)
+              DW_AT_type	(0x000ebd2a "reverse_iterator")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ebd36: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNKSt6vectorIN16DamageController5MeleeESaIS1_EE6rbeginEv")
+              DW_AT_name	("rbegin")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(743)
+              DW_AT_type	(0x000ebd4d "const_reverse_iterator")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ebd59: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE4rendEv")
+              DW_AT_name	("rend")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(752)
+              DW_AT_type	(0x000ebd2a "reverse_iterator")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ebd70: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNKSt6vectorIN16DamageController5MeleeESaIS1_EE4rendEv")
+              DW_AT_name	("rend")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(761)
+              DW_AT_type	(0x000ebd4d "const_reverse_iterator")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ebd87: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNKSt6vectorIN16DamageController5MeleeESaIS1_EE6cbeginEv")
+              DW_AT_name	("cbegin")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(771)
+              DW_AT_type	(0x000ebcd9 "const_iterator")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ebd9e: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNKSt6vectorIN16DamageController5MeleeESaIS1_EE4cendEv")
+              DW_AT_name	("cend")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(780)
+              DW_AT_type	(0x000ebcd9 "const_iterator")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ebdb5: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNKSt6vectorIN16DamageController5MeleeESaIS1_EE7crbeginEv")
+              DW_AT_name	("crbegin")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(789)
+              DW_AT_type	(0x000ebd4d "const_reverse_iterator")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ebdcc: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNKSt6vectorIN16DamageController5MeleeESaIS1_EE5crendEv")
+              DW_AT_name	("crend")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(798)
+              DW_AT_type	(0x000ebd4d "const_reverse_iterator")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ebde3: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNKSt6vectorIN16DamageController5MeleeESaIS1_EE4sizeEv")
+              DW_AT_name	("size")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(805)
+              DW_AT_type	(0x0010b13d "size_type")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ebdfa: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNKSt6vectorIN16DamageController5MeleeESaIS1_EE8max_sizeEv")
+              DW_AT_name	("max_size")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(810)
+              DW_AT_type	(0x0010b13d "size_type")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ebe11: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE6resizeEy")
+              DW_AT_name	("resize")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(824)
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ebe29: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE6resizeEyRKS1_")
+              DW_AT_name	("resize")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(844)
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ebe46: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE13shrink_to_fitEv")
+              DW_AT_name	("shrink_to_fit")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(876)
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ebe59: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNKSt6vectorIN16DamageController5MeleeESaIS1_EE8capacityEv")
+              DW_AT_name	("capacity")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(885)
+              DW_AT_type	(0x0010b13d "size_type")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ebe70: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNKSt6vectorIN16DamageController5MeleeESaIS1_EE5emptyEv")
+              DW_AT_name	("empty")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(894)
+              DW_AT_type	(0x000fe399 "bool")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ebe87: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE7reserveEy")
+              DW_AT_name	("reserve")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(915)
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ebe9f: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EEixEy")
+              DW_AT_name	("operator[]")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(930)
+              DW_AT_type	(0x000ebebb "reference")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ebec7: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNKSt6vectorIN16DamageController5MeleeESaIS1_EEixEy")
+              DW_AT_name	("operator[]")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(948)
+              DW_AT_type	(0x000ebee3 "const_reference")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ebeef: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNKSt6vectorIN16DamageController5MeleeESaIS1_EE14_M_range_checkEy")
+              DW_AT_name	("_M_range_check")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(957)
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_protected)
+
+0x000ebf07: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE2atEy")
+              DW_AT_name	("at")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(979)
+              DW_AT_type	(0x000ebebb "reference")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ebf23: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNKSt6vectorIN16DamageController5MeleeESaIS1_EE2atEy")
+              DW_AT_name	("at")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(997)
+              DW_AT_type	(0x000ebee3 "const_reference")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ebf3f: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE5frontEv")
+              DW_AT_name	("front")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(1008)
+              DW_AT_type	(0x000ebebb "reference")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ebf56: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNKSt6vectorIN16DamageController5MeleeESaIS1_EE5frontEv")
+              DW_AT_name	("front")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(1019)
+              DW_AT_type	(0x000ebee3 "const_reference")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ebf6d: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE4backEv")
+              DW_AT_name	("back")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(1030)
+              DW_AT_type	(0x000ebebb "reference")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ebf84: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNKSt6vectorIN16DamageController5MeleeESaIS1_EE4backEv")
+              DW_AT_name	("back")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(1041)
+              DW_AT_type	(0x000ebee3 "const_reference")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ebf9b: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE4dataEv")
+              DW_AT_name	("data")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(1055)
+              DW_AT_type	(0x00112fb0 "Melee*")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ebfb2: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNKSt6vectorIN16DamageController5MeleeESaIS1_EE4dataEv")
+              DW_AT_name	("data")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(1059)
+              DW_AT_type	(0x00112fd3 "const Melee*")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ebfc9: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE9push_backERKS1_")
+              DW_AT_name	("push_back")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(1074)
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ebfe1: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE9push_backEOS1_")
+              DW_AT_name	("push_back")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(1090)
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ebff9: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE8pop_backEv")
+              DW_AT_name	("pop_back")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(1112)
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ec00c: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE6insertEN9__gnu_cxx17__normal_iteratorIPKS1_S3_EERS6_")
+              DW_AT_name	("insert")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(1150)
+              DW_AT_type	(0x000ebcb6 "iterator")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ec02d: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE6insertEN9__gnu_cxx17__normal_iteratorIPKS1_S3_EEOS1_")
+              DW_AT_name	("insert")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(1180)
+              DW_AT_type	(0x000ebcb6 "iterator")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ec04e: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE6insertEN9__gnu_cxx17__normal_iteratorIPKS1_S3_EESt16initializer_listIS1_E")
+              DW_AT_name	("insert")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(1197)
+              DW_AT_type	(0x000ebcb6 "iterator")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ec06f: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE6insertEN9__gnu_cxx17__normal_iteratorIPKS1_S3_EEyRS6_")
+              DW_AT_name	("insert")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(1222)
+              DW_AT_type	(0x000ebcb6 "iterator")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ec095: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE5eraseEN9__gnu_cxx17__normal_iteratorIPKS1_S3_EE")
+              DW_AT_name	("erase")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(1317)
+              DW_AT_type	(0x000ebcb6 "iterator")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ec0b1: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE5eraseEN9__gnu_cxx17__normal_iteratorIPKS1_S3_EES8_")
+              DW_AT_name	("erase")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(1344)
+              DW_AT_type	(0x000ebcb6 "iterator")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ec0d2: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE4swapERS3_")
+              DW_AT_name	("swap")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(1367)
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ec0ea: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE5clearEv")
+              DW_AT_name	("clear")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(1385)
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ec0fd: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE18_M_fill_initializeEyRKS1_")
+              DW_AT_name	("_M_fill_initialize")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(1477)
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_protected)
+
+0x000ec11a: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE21_M_default_initializeEy")
+              DW_AT_name	("_M_default_initialize")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(1487)
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_protected)
+
+0x000ec132: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE14_M_fill_assignEyRKS1_")
+              DW_AT_name	("_M_fill_assign")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(1529)
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_protected)
+
+0x000ec14f: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE14_M_fill_insertEN9__gnu_cxx17__normal_iteratorIPS1_S3_EEyRKS1_")
+              DW_AT_name	("_M_fill_insert")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(1568)
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_protected)
+
+0x000ec171: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE17_M_default_appendEy")
+              DW_AT_name	("_M_default_append")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(1573)
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_protected)
+
+0x000ec189: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE16_M_shrink_to_fitEv")
+              DW_AT_name	("_M_shrink_to_fit")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(1576)
+              DW_AT_type	(0x000fe399 "bool")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_protected)
+
+0x000ec1a0: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE14_M_insert_rvalEN9__gnu_cxx17__normal_iteratorIPKS1_S3_EEOS1_")
+              DW_AT_name	("_M_insert_rval")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(1625)
+              DW_AT_type	(0x000ebcb6 "iterator")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_protected)
+
+0x000ec1c1: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE14_M_emplace_auxEN9__gnu_cxx17__normal_iteratorIPKS1_S3_EEOS1_")
+              DW_AT_name	("_M_emplace_aux")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(1634)
+              DW_AT_type	(0x000ebcb6 "iterator")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_protected)
+
+0x000ec1e2: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNKSt6vectorIN16DamageController5MeleeESaIS1_EE12_M_check_lenEyPKc")
+              DW_AT_name	("_M_check_len")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(1640)
+              DW_AT_type	(0x000ec203 "size_type")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_protected)
+
+0x000ec20f: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE15_M_erase_at_endEPS1_")
+              DW_AT_name	("_M_erase_at_end")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(1654)
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_protected)
+
+0x000ec233: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE8_M_eraseEN9__gnu_cxx17__normal_iteratorIPS1_S3_EE")
+              DW_AT_name	("_M_erase")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(1666)
+              DW_AT_type	(0x000ebcb6 "iterator")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_protected)
+
+0x000ec24f: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE8_M_eraseEN9__gnu_cxx17__normal_iteratorIPS1_S3_EES7_")
+              DW_AT_name	("_M_erase")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(1669)
+              DW_AT_type	(0x000ebcb6 "iterator")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_protected)
+
+0x000ec270: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE14_M_move_assignEOS3_St17integral_constantIbLb1EE")
+              DW_AT_name	("_M_move_assign")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(1677)
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+
+0x000ec28c: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE14_M_move_assignEOS3_St17integral_constantIbLb0EE")
+              DW_AT_name	("_M_move_assign")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(1688)
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+
+0x000ec2ba: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE20_M_allocate_and_copyIN9__gnu_cxx17__normal_iteratorIPKS1_S3_EEEEPS1_yT_SB_")
+              DW_AT_name	("_M_allocate_and_copy<__gnu_cxx::__normal_iterator<const DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > > >")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(1395)
+              DW_AT_type	(0x000ec227 "pointer")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_protected)
+
+0x000ec2e9: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE12emplace_backIJEEERS1_DpOT_")
+              DW_AT_name	("emplace_back<>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(1099)
+              DW_AT_type	(0x000ebebb "reference")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000ec305: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE17_M_realloc_insertIJEEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_")
+              DW_AT_name	("_M_realloc_insert<>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(1621)
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_protected)
+
+0x000ec323: DW_TAG_structure_type
+              DW_AT_calling_convention	(DW_CC_pass_by_reference)
+              DW_AT_name	("_Vector_base<DamageController::Melee, std::allocator<DamageController::Melee> >")
+              DW_AT_byte_size	(0x18)
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(81)
+
+0x000ec39d: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt12_Vector_baseIN16DamageController5MeleeESaIS1_EE12_Vector_impl12_M_swap_dataERS4_")
+              DW_AT_name	("_M_swap_data")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(110)
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+
+0x000ec3d5: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt12_Vector_baseIN16DamageController5MeleeESaIS1_EE19_M_get_Tp_allocatorEv")
+              DW_AT_name	("_M_get_Tp_allocator")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(237)
+              DW_AT_type	(0x00113019 "_Tp_alloc_type&")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+
+0x000ec3ea: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNKSt12_Vector_baseIN16DamageController5MeleeESaIS1_EE19_M_get_Tp_allocatorEv")
+              DW_AT_name	("_M_get_Tp_allocator")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(241)
+              DW_AT_type	(0x00113005 "const _Tp_alloc_type&")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+
+0x000ec3ff: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNKSt12_Vector_baseIN16DamageController5MeleeESaIS1_EE13get_allocatorEv")
+              DW_AT_name	("get_allocator")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(245)
+              DW_AT_type	(0x000ec414 "allocator_type")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+
+0x000ec4b4: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt12_Vector_baseIN16DamageController5MeleeESaIS1_EE11_M_allocateEy")
+              DW_AT_name	("_M_allocate")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(293)
+              DW_AT_type	(0x000ec3ca "pointer")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+
+0x000ec4cf: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt12_Vector_baseIN16DamageController5MeleeESaIS1_EE13_M_deallocateEPS1_y")
+              DW_AT_name	("_M_deallocate")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(300)
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+
+0x000ec4eb: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt12_Vector_baseIN16DamageController5MeleeESaIS1_EE17_M_create_storageEy")
+              DW_AT_name	("_M_create_storage")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(309)
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_private)
+
+0x000ec516: DW_TAG_structure_type
+              DW_AT_calling_convention	(DW_CC_pass_by_value)
+              DW_AT_name	("allocator_traits<std::allocator<DamageController::Melee> >")
+              DW_AT_byte_size	(0x01)
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\alloc_traits.h")
+              DW_AT_decl_line	(384)
+
+0x000ec520: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt16allocator_traitsISaIN16DamageController5MeleeEEE8allocateERS2_y")
+              DW_AT_name	("allocate")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\alloc_traits.h")
+              DW_AT_decl_line	(435)
+              DW_AT_type	(0x000ec53b "pointer")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+
+0x000ec553: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt16allocator_traitsISaIN16DamageController5MeleeEEE8allocateERS2_yPKv")
+              DW_AT_name	("allocate")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\alloc_traits.h")
+              DW_AT_decl_line	(449)
+              DW_AT_type	(0x000ec53b "pointer")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+
+0x000ec573: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt16allocator_traitsISaIN16DamageController5MeleeEEE10deallocateERS2_PS1_y")
+              DW_AT_name	("deallocate")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\alloc_traits.h")
+              DW_AT_decl_line	(461)
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+
+0x000ec58f: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt16allocator_traitsISaIN16DamageController5MeleeEEE8max_sizeERKS2_")
+              DW_AT_name	("max_size")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\alloc_traits.h")
+              DW_AT_decl_line	(495)
+              DW_AT_type	(0x000ec5a5 "size_type")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+
+0x000ec5b1: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt16allocator_traitsISaIN16DamageController5MeleeEEE37select_on_container_copy_constructionERKS2_")
+              DW_AT_name	("select_on_container_copy_construction")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\alloc_traits.h")
+              DW_AT_decl_line	(504)
+              DW_AT_type	(0x000ec547 "allocator_type")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+
+0x000ec5d0: DW_TAG_typedef
+              DW_AT_type	(0x000ec62e "allocator<DamageController::Melee>")
+              DW_AT_name	("rebind_alloc<DamageController::Melee>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\alloc_traits.h")
+              DW_AT_decl_line	(422)
+
+0x000ec5e8: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt16allocator_traitsISaIN16DamageController5MeleeEEE9constructIS1_JEEEvRS2_PT_DpOT0_")
+              DW_AT_name	("construct<DamageController::Melee>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\alloc_traits.h")
+              DW_AT_decl_line	(474)
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+
+0x000ec60d: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt16allocator_traitsISaIN16DamageController5MeleeEEE7destroyIS1_EEvRS2_PT_")
+              DW_AT_name	("destroy<DamageController::Melee>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\alloc_traits.h")
+              DW_AT_decl_line	(486)
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+
+0x000ec62e: DW_TAG_class_type
+              DW_AT_calling_convention	(DW_CC_pass_by_reference)
+              DW_AT_name	("allocator<DamageController::Melee>")
+              DW_AT_byte_size	(0x01)
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\allocator.h")
+              DW_AT_decl_line	(108)
+
+0x000ec677: DW_TAG_typedef
+              DW_AT_type	(0x00101f4e "new_allocator<DamageController::Melee>")
+              DW_AT_name	("__allocator_base<DamageController::Melee>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\x86_64-w64-mingw32\bits\c++allocator.h")
+              DW_AT_decl_line	(48)
+
+0x000ec682: DW_TAG_class_type
+              DW_AT_name	("initializer_list<DamageController::Melee>")
+              DW_AT_declaration	(true)
+
+0x000ec687: DW_TAG_structure_type
+              DW_AT_calling_convention	(DW_CC_pass_by_value)
+              DW_AT_name	("iterator_traits<DamageController::Melee *>")
+              DW_AT_byte_size	(0x01)
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator_base_types.h")
+              DW_AT_decl_line	(178)
+
+0x000ec6bb: DW_TAG_structure_type
+              DW_AT_calling_convention	(DW_CC_pass_by_value)
+              DW_AT_name	("iterator_traits<const DamageController::Melee *>")
+              DW_AT_byte_size	(0x01)
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator_base_types.h")
+              DW_AT_decl_line	(189)
+
+0x000ec6ef: DW_TAG_class_type
+              DW_AT_name	("reverse_iterator<__gnu_cxx::__normal_iterator<DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > > >")
+              DW_AT_declaration	(true)
+
+0x000ec6f4: DW_TAG_class_type
+              DW_AT_name	("reverse_iterator<__gnu_cxx::__normal_iterator<const DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > > >")
+              DW_AT_declaration	(true)
+
+0x000f414b: DW_TAG_class_type
+              DW_AT_calling_convention	(DW_CC_pass_by_value)
+              DW_AT_name	("move_iterator<DamageController::Melee *>")
+              DW_AT_byte_size	(0x08)
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(1007)
+
+0x000f4192: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNKSt13move_iteratorIPN16DamageController5MeleeEE4baseEv")
+              DW_AT_name	("base")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(1042)
+              DW_AT_type	(0x000f4186 "iterator_type")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000f41a9: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNKSt13move_iteratorIPN16DamageController5MeleeEEdeEv")
+              DW_AT_name	("operator*")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(1046)
+              DW_AT_type	(0x000f41c0 "reference")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000f41cc: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNKSt13move_iteratorIPN16DamageController5MeleeEEptEv")
+              DW_AT_name	("operator->")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(1050)
+              DW_AT_type	(0x000f41e3 "pointer")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000f41ef: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt13move_iteratorIPN16DamageController5MeleeEEppEv")
+              DW_AT_name	("operator++")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(1054)
+              DW_AT_type	(0x0011c75b "move_iterator<DamageController::Melee *>&")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000f4206: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt13move_iteratorIPN16DamageController5MeleeEEppEi")
+              DW_AT_name	("operator++")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(1061)
+              DW_AT_type	(0x000f414b "move_iterator<DamageController::Melee *>")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000f4222: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt13move_iteratorIPN16DamageController5MeleeEEmmEv")
+              DW_AT_name	("operator--")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(1069)
+              DW_AT_type	(0x0011c75b "move_iterator<DamageController::Melee *>&")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000f4239: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt13move_iteratorIPN16DamageController5MeleeEEmmEi")
+              DW_AT_name	("operator--")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(1076)
+              DW_AT_type	(0x000f414b "move_iterator<DamageController::Melee *>")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000f4255: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNKSt13move_iteratorIPN16DamageController5MeleeEEplEx")
+              DW_AT_name	("operator+")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(1084)
+              DW_AT_type	(0x000f414b "move_iterator<DamageController::Melee *>")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000f427d: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt13move_iteratorIPN16DamageController5MeleeEEpLEx")
+              DW_AT_name	("operator+=")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(1088)
+              DW_AT_type	(0x0011c75b "move_iterator<DamageController::Melee *>&")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000f4299: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNKSt13move_iteratorIPN16DamageController5MeleeEEmiEx")
+              DW_AT_name	("operator-")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(1095)
+              DW_AT_type	(0x000f414b "move_iterator<DamageController::Melee *>")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000f42b5: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt13move_iteratorIPN16DamageController5MeleeEEmIEx")
+              DW_AT_name	("operator-=")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(1099)
+              DW_AT_type	(0x0011c75b "move_iterator<DamageController::Melee *>&")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000f42d1: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNKSt13move_iteratorIPN16DamageController5MeleeEEixEx")
+              DW_AT_name	("operator[]")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(1106)
+              DW_AT_type	(0x000f41c0 "reference")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x000f42f7: DW_TAG_structure_type
+              DW_AT_calling_convention	(DW_CC_pass_by_value)
+              DW_AT_name	("conditional<true, DamageController::Melee &&, DamageController::Melee &>")
+              DW_AT_byte_size	(0x01)
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\type_traits")
+              DW_AT_decl_line	(1969)
+
+0x000f492f: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt12_Destroy_auxILb1EE9__destroyIPN16DamageController5MeleeEEEvT_S5_")
+              DW_AT_name	("__destroy<DamageController::Melee *>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_construct.h")
+              DW_AT_decl_line	(117)
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+
+0x000f498c: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt12_Destroy_auxILb1EE9__destroyIN9__gnu_cxx17__normal_iteratorIPN16DamageController5MeleeESt6vectorIS5_SaIS5_EEEEEEvT_SB_")
+              DW_AT_name	("__destroy<__gnu_cxx::__normal_iterator<DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > > >")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_construct.h")
+              DW_AT_decl_line	(117)
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+
+0x000f6be2: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401b5ca0)
+              DW_AT_high_pc	(0x00000001401b5cab)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZSt4moveIRSt6vectorIN16DamageController5MeleeESaIS2_EEEONSt16remove_referenceIT_E4typeEOS7_")
+              DW_AT_name	("move<std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > &>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\move.h")
+              DW_AT_decl_line	(99)
+              DW_AT_type	(0x001381fa "type&&")
+              DW_AT_external	(true)
+
+0x000f6c17: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401b2510)
+              DW_AT_high_pc	(0x00000001401b2538)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZSt15__alloc_on_moveISaIN16DamageController5MeleeEEEvRT_S4_")
+              DW_AT_name	("__alloc_on_move<std::allocator<DamageController::Melee> >")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\alloc_traits.h")
+              DW_AT_decl_line	(543)
+              DW_AT_external	(true)
+
+0x000f6c59: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401b6560)
+              DW_AT_high_pc	(0x00000001401b65af)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZSt4swapIPN16DamageController5MeleeEENSt9enable_ifIXsr6__and_ISt6__not_ISt15__is_tuple_likeIT_EESt21is_move_constructibleIS6_ESt18is_move_assignableIS6_EEE5valueEvE4typeERS6_SF_")
+              DW_AT_name	("swap<DamageController::Melee *>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\move.h")
+              DW_AT_decl_line	(182)
+              DW_AT_type	(0x000fa4db "type")
+              DW_AT_external	(true)
+
+0x000f6caa: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401b5a90)
+              DW_AT_high_pc	(0x00000001401b5a9b)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZSt4moveIRPN16DamageController5MeleeEEONSt16remove_referenceIT_E4typeEOS5_")
+              DW_AT_name	("move<DamageController::Melee *&>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\move.h")
+              DW_AT_decl_line	(99)
+              DW_AT_type	(0x00138204 "type&&")
+              DW_AT_external	(true)
+
+0x000f6cdf: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401b2930)
+              DW_AT_high_pc	(0x00000001401b2957)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZSt18__do_alloc_on_moveISaIN16DamageController5MeleeEEEvRT_S4_St17integral_constantIbLb1EE")
+              DW_AT_name	("__do_alloc_on_move<std::allocator<DamageController::Melee> >")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\alloc_traits.h")
+              DW_AT_decl_line	(535)
+              DW_AT_external	(true)
+
+0x000f6d2d: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401b5b30)
+              DW_AT_high_pc	(0x00000001401b5b3b)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZSt4moveIRSaIN16DamageController5MeleeEEEONSt16remove_referenceIT_E4typeEOS5_")
+              DW_AT_name	("move<std::allocator<DamageController::Melee> &>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\move.h")
+              DW_AT_decl_line	(99)
+              DW_AT_type	(0x00138209 "type&&")
+              DW_AT_external	(true)
+
+0x000f6d62: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401b7b50)
+              DW_AT_high_pc	(0x00000001401b7b78)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZSt8_DestroyIPN16DamageController5MeleeES1_EvT_S3_RSaIT0_E")
+              DW_AT_name	("_Destroy<DamageController::Melee *, DamageController::Melee>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_construct.h")
+              DW_AT_decl_line	(203)
+              DW_AT_external	(true)
+
+0x000f6db4: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401b7b20)
+              DW_AT_high_pc	(0x00000001401b7b43)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZSt8_DestroyIPN16DamageController5MeleeEEvT_S3_")
+              DW_AT_name	("_Destroy<DamageController::Melee *>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_construct.h")
+              DW_AT_decl_line	(127)
+              DW_AT_external	(true)
+
+0x000f7dbb: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401b7820)
+              DW_AT_high_pc	(0x00000001401b785c)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZSt8_DestroyIN9__gnu_cxx17__normal_iteratorIPN16DamageController5MeleeESt6vectorIS3_SaIS3_EEEES3_EvT_S9_RSaIT0_E")
+              DW_AT_name	("_Destroy<__gnu_cxx::__normal_iterator<DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > >, DamageController::Melee>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_construct.h")
+              DW_AT_decl_line	(203)
+              DW_AT_external	(true)
+
+0x000f7e0e: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401b50e0)
+              DW_AT_high_pc	(0x00000001401b5152)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZSt4copyIN9__gnu_cxx17__normal_iteratorIPKN16DamageController5MeleeESt6vectorIS3_SaIS3_EEEENS1_IPS3_S8_EEET0_T_SD_SC_")
+              DW_AT_name	("copy<__gnu_cxx::__normal_iterator<const DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > >, __gnu_cxx::__normal_iterator<DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > > >")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_algobase.h")
+              DW_AT_decl_line	(446)
+              DW_AT_type	(0x00102089 "__normal_iterator<DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > >")
+              DW_AT_external	(true)
+
+0x000f7e6f: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401b5530)
+              DW_AT_high_pc	(0x00000001401b5574)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZSt4copyIPN16DamageController5MeleeES2_ET0_T_S4_S3_")
+              DW_AT_name	("copy<DamageController::Melee *, DamageController::Melee *>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_algobase.h")
+              DW_AT_decl_line	(446)
+              DW_AT_type	(0x00112fb0 "Melee*")
+              DW_AT_external	(true)
+
+0x000f7ece: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401b36f0)
+              DW_AT_high_pc	(0x00000001401b3722)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZSt22__uninitialized_copy_aIPN16DamageController5MeleeES2_S1_ET0_T_S4_S3_RSaIT1_E")
+              DW_AT_name	("__uninitialized_copy_a<DamageController::Melee *, DamageController::Melee *, DamageController::Melee>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_uninitialized.h")
+              DW_AT_decl_line	(287)
+              DW_AT_type	(0x00112fb0 "Melee*")
+              DW_AT_external	(true)
+
+0x000f7f41: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401b34b0)
+              DW_AT_high_pc	(0x00000001401b34f6)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZSt22__uninitialized_copy_aIN9__gnu_cxx17__normal_iteratorIPKN16DamageController5MeleeESt6vectorIS3_SaIS3_EEEEPS3_S3_ET0_T_SC_SB_RSaIT1_E")
+              DW_AT_name	("__uninitialized_copy_a<__gnu_cxx::__normal_iterator<const DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > >, DamageController::Melee *, DamageController::Melee>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_uninitialized.h")
+              DW_AT_decl_line	(287)
+              DW_AT_type	(0x00112fb0 "Melee*")
+              DW_AT_external	(true)
+
+0x000f7fb6: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401b2b60)
+              DW_AT_high_pc	(0x00000001401b2ba6)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZSt18uninitialized_copyIN9__gnu_cxx17__normal_iteratorIPKN16DamageController5MeleeESt6vectorIS3_SaIS3_EEEEPS3_ET0_T_SC_SB_")
+              DW_AT_name	("uninitialized_copy<__gnu_cxx::__normal_iterator<const DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > >, DamageController::Melee *>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_uninitialized.h")
+              DW_AT_decl_line	(115)
+              DW_AT_type	(0x00112fb0 "Melee*")
+              DW_AT_external	(true)
+
+0x000f8034: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt20__uninitialized_copyILb0EE13__uninit_copyIN9__gnu_cxx17__normal_iteratorIPKN16DamageController5MeleeESt6vectorIS5_SaIS5_EEEEPS5_EET0_T_SE_SD_")
+              DW_AT_name	("__uninit_copy<__gnu_cxx::__normal_iterator<const DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > >, DamageController::Melee *>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_uninitialized.h")
+              DW_AT_decl_line	(76)
+              DW_AT_type	(0x00112fb0 "Melee*")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+
+0x000f8065: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt20__uninitialized_copyILb0EE13__uninit_copyIPN16DamageController5MeleeES4_EET0_T_S6_S5_")
+              DW_AT_name	("__uninit_copy<DamageController::Melee *, DamageController::Melee *>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_uninitialized.h")
+              DW_AT_decl_line	(76)
+              DW_AT_type	(0x00112fb0 "Melee*")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+
+0x000f8129: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt20__uninitialized_copyILb0EE13__uninit_copyISt13move_iteratorIPN16DamageController5MeleeEES5_EET0_T_S8_S7_")
+              DW_AT_name	("__uninit_copy<std::move_iterator<DamageController::Melee *>, DamageController::Melee *>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_uninitialized.h")
+              DW_AT_decl_line	(76)
+              DW_AT_type	(0x00112fb0 "Melee*")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+
+0x000f81bd: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401af7b0)
+              DW_AT_high_pc	(0x00000001401af7f5)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZSt10_ConstructIN16DamageController5MeleeEJRKS1_EEvPT_DpOT0_")
+              DW_AT_name	("_Construct<DamageController::Melee, const DamageController::Melee &>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_construct.h")
+              DW_AT_decl_line	(74)
+              DW_AT_external	(true)
+
+0x000f8207: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401b03d0)
+              DW_AT_high_pc	(0x00000001401b03db)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZSt11__addressofIN16DamageController5MeleeEEPT_RS2_")
+              DW_AT_name	("__addressof<DamageController::Melee>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\move.h")
+              DW_AT_decl_line	(47)
+              DW_AT_type	(0x00112fb0 "Melee*")
+              DW_AT_external	(true)
+
+0x000f823c: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401b6fa0)
+              DW_AT_high_pc	(0x00000001401b6fab)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZSt7forwardIRKN16DamageController5MeleeEEOT_RNSt16remove_referenceIS4_E4typeE")
+              DW_AT_name	("forward<const DamageController::Melee &>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\move.h")
+              DW_AT_decl_line	(74)
+              DW_AT_type	(0x00112fdd "const Melee&")
+              DW_AT_external	(true)
+
+0x000f8271: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401b77e0)
+              DW_AT_high_pc	(0x00000001401b7817)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZSt8_DestroyIN9__gnu_cxx17__normal_iteratorIPN16DamageController5MeleeESt6vectorIS3_SaIS3_EEEEEvT_S9_")
+              DW_AT_name	("_Destroy<__gnu_cxx::__normal_iterator<DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > > >")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_construct.h")
+              DW_AT_decl_line	(127)
+              DW_AT_external	(true)
+
+0x000f82b1: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401b1c50)
+              DW_AT_high_pc	(0x00000001401b1cd9)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZSt14__copy_move_a2ILb0EN9__gnu_cxx17__normal_iteratorIPKN16DamageController5MeleeESt6vectorIS3_SaIS3_EEEENS1_IPS3_S8_EEET1_T0_SD_SC_")
+              DW_AT_name	("__copy_move_a2<false, __gnu_cxx::__normal_iterator<const DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > >, __gnu_cxx::__normal_iterator<DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > > >")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_algobase.h")
+              DW_AT_decl_line	(420)
+              DW_AT_type	(0x00102089 "__normal_iterator<DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > >")
+              DW_AT_external	(true)
+
+0x000f831c: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401b1000)
+              DW_AT_high_pc	(0x00000001401b101b)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZSt12__miter_baseIN9__gnu_cxx17__normal_iteratorIPKN16DamageController5MeleeESt6vectorIS3_SaIS3_EEEEET_SA_")
+              DW_AT_name	("__miter_base<__gnu_cxx::__normal_iterator<const DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > > >")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\cpp_type_traits.h")
+              DW_AT_decl_line	(419)
+              DW_AT_type	(0x00102232 "__normal_iterator<const DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > >")
+              DW_AT_external	(true)
+
+0x000f8353: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401b14a0)
+              DW_AT_high_pc	(0x00000001401b14d2)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZSt13__copy_move_aILb0EPKN16DamageController5MeleeEPS1_ET1_T0_S6_S5_")
+              DW_AT_name	("__copy_move_a<false, const DamageController::Melee *, DamageController::Melee *>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_algobase.h")
+              DW_AT_decl_line	(375)
+              DW_AT_type	(0x00112fb0 "Melee*")
+              DW_AT_external	(true)
+
+0x000f83cb: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401b1240)
+              DW_AT_high_pc	(0x00000001401b125b)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZSt12__niter_baseIPKN16DamageController5MeleeESt6vectorIS1_SaIS1_EEET_N9__gnu_cxx17__normal_iteratorIS7_T0_EE")
+              DW_AT_name	("__niter_base<const DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > >")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(987)
+              DW_AT_type	(0x00112fd3 "const Melee*")
+              DW_AT_external	(true)
+
+0x000f840b: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401b1310)
+              DW_AT_high_pc	(0x00000001401b132b)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZSt12__niter_baseIPN16DamageController5MeleeESt6vectorIS1_SaIS1_EEET_N9__gnu_cxx17__normal_iteratorIS6_T0_EE")
+              DW_AT_name	("__niter_base<DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > >")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(987)
+              DW_AT_type	(0x00112fb0 "Melee*")
+              DW_AT_external	(true)
+
+0x000f8466: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt11__copy_moveILb0ELb0ESt26random_access_iterator_tagE8__copy_mIPKN16DamageController5MeleeEPS4_EET0_T_S9_S8_")
+              DW_AT_name	("__copy_m<const DamageController::Melee *, DamageController::Melee *>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_algobase.h")
+              DW_AT_decl_line	(319)
+              DW_AT_type	(0x00112fb0 "Melee*")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+
+0x000f8498: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNSt11__copy_moveILb0ELb0ESt26random_access_iterator_tagE8__copy_mIPN16DamageController5MeleeES5_EET0_T_S7_S6_")
+              DW_AT_name	("__copy_m<DamageController::Melee *, DamageController::Melee *>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_algobase.h")
+              DW_AT_decl_line	(319)
+              DW_AT_type	(0x00112fb0 "Melee*")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+
+0x000f852f: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401b2150)
+              DW_AT_high_pc	(0x00000001401b21a3)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZSt14__copy_move_a2ILb0EPN16DamageController5MeleeES2_ET1_T0_S4_S3_")
+              DW_AT_name	("__copy_move_a2<false, DamageController::Melee *, DamageController::Melee *>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_algobase.h")
+              DW_AT_decl_line	(420)
+              DW_AT_type	(0x00112fb0 "Melee*")
+              DW_AT_external	(true)
+
+0x000f8598: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401b10d0)
+              DW_AT_high_pc	(0x00000001401b10db)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZSt12__miter_baseIPN16DamageController5MeleeEET_S3_")
+              DW_AT_name	("__miter_base<DamageController::Melee *>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\cpp_type_traits.h")
+              DW_AT_decl_line	(419)
+              DW_AT_type	(0x00112fb0 "Melee*")
+              DW_AT_external	(true)
+
+0x000f85cf: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401b16a0)
+              DW_AT_high_pc	(0x00000001401b16d2)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZSt13__copy_move_aILb0EPN16DamageController5MeleeES2_ET1_T0_S4_S3_")
+              DW_AT_name	("__copy_move_a<false, DamageController::Melee *, DamageController::Melee *>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_algobase.h")
+              DW_AT_decl_line	(375)
+              DW_AT_type	(0x00112fb0 "Melee*")
+              DW_AT_external	(true)
+
+0x000f8647: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401b1300)
+              DW_AT_high_pc	(0x00000001401b130b)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZSt12__niter_baseIPN16DamageController5MeleeEET_S3_")
+              DW_AT_name	("__niter_base<DamageController::Melee *>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_algobase.h")
+              DW_AT_decl_line	(277)
+              DW_AT_type	(0x00112fb0 "Melee*")
+              DW_AT_external	(true)
+
+0x000f867e: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401b2de0)
+              DW_AT_high_pc	(0x00000001401b2e12)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZSt18uninitialized_copyIPN16DamageController5MeleeES2_ET0_T_S4_S3_")
+              DW_AT_name	("uninitialized_copy<DamageController::Melee *, DamageController::Melee *>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_uninitialized.h")
+              DW_AT_decl_line	(115)
+              DW_AT_type	(0x00112fb0 "Melee*")
+              DW_AT_external	(true)
+
+0x000f86e7: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401af800)
+              DW_AT_high_pc	(0x00000001401af845)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZSt10_ConstructIN16DamageController5MeleeEJRS1_EEvPT_DpOT0_")
+              DW_AT_name	("_Construct<DamageController::Melee, DamageController::Melee &>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_construct.h")
+              DW_AT_decl_line	(74)
+              DW_AT_external	(true)
+
+0x000f8731: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401b7110)
+              DW_AT_high_pc	(0x00000001401b711b)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZSt7forwardIRN16DamageController5MeleeEEOT_RNSt16remove_referenceIS3_E4typeE")
+              DW_AT_name	("forward<DamageController::Melee &>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\move.h")
+              DW_AT_decl_line	(74)
+              DW_AT_type	(0x00112fce "Melee&")
+              DW_AT_external	(true)
+
+0x000fc1d6: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401b4090)
+              DW_AT_high_pc	(0x00000001401b40e5)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZSt34__uninitialized_move_if_noexcept_aIPN16DamageController5MeleeES2_SaIS1_EET0_T_S5_S4_RT1_")
+              DW_AT_name	("__uninitialized_move_if_noexcept_a<DamageController::Melee *, DamageController::Melee *, std::allocator<DamageController::Melee> >")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_uninitialized.h")
+              DW_AT_decl_line	(305)
+              DW_AT_type	(0x00112fb0 "Melee*")
+              DW_AT_external	(true)
+
+0x000fc24f: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401b38d0)
+              DW_AT_high_pc	(0x00000001401b3916)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZSt22__uninitialized_copy_aISt13move_iteratorIPN16DamageController5MeleeEES3_S2_ET0_T_S6_S5_RSaIT1_E")
+              DW_AT_name	("__uninitialized_copy_a<std::move_iterator<DamageController::Melee *>, DamageController::Melee *, DamageController::Melee>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_uninitialized.h")
+              DW_AT_decl_line	(287)
+              DW_AT_type	(0x00112fb0 "Melee*")
+              DW_AT_external	(true)
+
+0x000fc2c4: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401b3e20)
+              DW_AT_high_pc	(0x00000001401b3e42)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZSt32__make_move_if_noexcept_iteratorIN16DamageController5MeleeESt13move_iteratorIPS1_EET0_PT_")
+              DW_AT_name	("__make_move_if_noexcept_iterator<DamageController::Melee, std::move_iterator<DamageController::Melee *> >")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(1218)
+              DW_AT_type	(0x000f414b "move_iterator<DamageController::Melee *>")
+              DW_AT_external	(true)
+
+0x000fc304: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401b3000)
+              DW_AT_high_pc	(0x00000001401b3046)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZSt18uninitialized_copyISt13move_iteratorIPN16DamageController5MeleeEES3_ET0_T_S6_S5_")
+              DW_AT_name	("uninitialized_copy<std::move_iterator<DamageController::Melee *>, DamageController::Melee *>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_uninitialized.h")
+              DW_AT_decl_line	(115)
+              DW_AT_type	(0x00112fb0 "Melee*")
+              DW_AT_external	(true)
+
+0x000fc36f: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401b8e10)
+              DW_AT_high_pc	(0x00000001401b8e39)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZStneIPN16DamageController5MeleeEEbRKSt13move_iteratorIT_ES7_")
+              DW_AT_name	("operator!=<DamageController::Melee *>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(1133)
+              DW_AT_type	(0x000fe399 "bool")
+              DW_AT_external	(true)
+
+0x000fc3b5: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401af850)
+              DW_AT_high_pc	(0x00000001401af895)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZSt10_ConstructIN16DamageController5MeleeEJS1_EEvPT_DpOT0_")
+              DW_AT_name	("_Construct<DamageController::Melee, DamageController::Melee>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_construct.h")
+              DW_AT_decl_line	(74)
+              DW_AT_external	(true)
+
+0x000fc3ff: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401b8a90)
+              DW_AT_high_pc	(0x00000001401b8ad0)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZSteqIPN16DamageController5MeleeEEbRKSt13move_iteratorIT_ES7_")
+              DW_AT_name	("operator==<DamageController::Melee *>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(1121)
+              DW_AT_type	(0x000fe399 "bool")
+              DW_AT_external	(true)
+
+0x000fc445: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401b6e40)
+              DW_AT_high_pc	(0x00000001401b6e4b)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZSt7forwardIN16DamageController5MeleeEEOT_RNSt16remove_referenceIS2_E4typeE")
+              DW_AT_name	("forward<DamageController::Melee>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\move.h")
+              DW_AT_decl_line	(74)
+              DW_AT_type	(0x0011c756 "Melee&&")
+              DW_AT_external	(true)
+
+0x000fd885: DW_TAG_structure_type
+              DW_AT_calling_convention	(DW_CC_pass_by_value)
+              DW_AT_name	("remove_reference<std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > &>")
+              DW_AT_byte_size	(0x01)
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\type_traits")
+              DW_AT_decl_line	(1457)
+
+0x000fd8a5: DW_TAG_structure_type
+              DW_AT_calling_convention	(DW_CC_pass_by_value)
+              DW_AT_name	("remove_reference<DamageController::Melee *&>")
+              DW_AT_byte_size	(0x01)
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\type_traits")
+              DW_AT_decl_line	(1457)
+
+0x000fd8c5: DW_TAG_structure_type
+              DW_AT_calling_convention	(DW_CC_pass_by_value)
+              DW_AT_name	("remove_reference<std::allocator<DamageController::Melee> &>")
+              DW_AT_byte_size	(0x01)
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\type_traits")
+              DW_AT_decl_line	(1457)
+
+0x000fdf7b: DW_TAG_structure_type
+              DW_AT_calling_convention	(DW_CC_pass_by_value)
+              DW_AT_name	("remove_reference<const DamageController::Melee &>")
+              DW_AT_byte_size	(0x01)
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\type_traits")
+              DW_AT_decl_line	(1457)
+
+0x000fdf9b: DW_TAG_structure_type
+              DW_AT_calling_convention	(DW_CC_pass_by_value)
+              DW_AT_name	("remove_reference<DamageController::Melee &>")
+              DW_AT_byte_size	(0x01)
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\type_traits")
+              DW_AT_decl_line	(1457)
+
+0x000fe206: DW_TAG_structure_type
+              DW_AT_calling_convention	(DW_CC_pass_by_value)
+              DW_AT_name	("remove_reference<DamageController::Melee>")
+              DW_AT_byte_size	(0x01)
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\type_traits")
+              DW_AT_decl_line	(1453)
+
+0x00101e70: DW_TAG_structure_type
+              DW_AT_calling_convention	(DW_CC_pass_by_value)
+              DW_AT_name	("__alloc_traits<std::allocator<DamageController::Melee>, DamageController::Melee>")
+              DW_AT_byte_size	(0x01)
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\ext\alloc_traits.h")
+              DW_AT_decl_line	(50)
+
+0x00101e7f: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZN9__gnu_cxx14__alloc_traitsISaIN16DamageController5MeleeEES2_E17_S_select_on_copyERKS3_")
+              DW_AT_name	("_S_select_on_copy")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\ext\alloc_traits.h")
+              DW_AT_decl_line	(94)
+              DW_AT_type	(0x000ec62e "allocator<DamageController::Melee>")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+
+0x00101e94: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZN9__gnu_cxx14__alloc_traitsISaIN16DamageController5MeleeEES2_E10_S_on_swapERS3_S5_")
+              DW_AT_name	("_S_on_swap")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\ext\alloc_traits.h")
+              DW_AT_decl_line	(97)
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+
+0x00101eaa: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZN9__gnu_cxx14__alloc_traitsISaIN16DamageController5MeleeEES2_E27_S_propagate_on_copy_assignEv")
+              DW_AT_name	("_S_propagate_on_copy_assign")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\ext\alloc_traits.h")
+              DW_AT_decl_line	(100)
+              DW_AT_type	(0x000fe399 "bool")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+
+0x00101eb9: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZN9__gnu_cxx14__alloc_traitsISaIN16DamageController5MeleeEES2_E27_S_propagate_on_move_assignEv")
+              DW_AT_name	("_S_propagate_on_move_assign")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\ext\alloc_traits.h")
+              DW_AT_decl_line	(103)
+              DW_AT_type	(0x000fe399 "bool")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+
+0x00101ec8: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZN9__gnu_cxx14__alloc_traitsISaIN16DamageController5MeleeEES2_E20_S_propagate_on_swapEv")
+              DW_AT_name	("_S_propagate_on_swap")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\ext\alloc_traits.h")
+              DW_AT_decl_line	(106)
+              DW_AT_type	(0x000fe399 "bool")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+
+0x00101ed7: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZN9__gnu_cxx14__alloc_traitsISaIN16DamageController5MeleeEES2_E15_S_always_equalEv")
+              DW_AT_name	("_S_always_equal")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\ext\alloc_traits.h")
+              DW_AT_decl_line	(109)
+              DW_AT_type	(0x000fe399 "bool")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+
+0x00101ee6: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZN9__gnu_cxx14__alloc_traitsISaIN16DamageController5MeleeEES2_E15_S_nothrow_moveEv")
+              DW_AT_name	("_S_nothrow_move")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\ext\alloc_traits.h")
+              DW_AT_decl_line	(112)
+              DW_AT_type	(0x000fe399 "bool")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+
+0x00101f03: DW_TAG_structure_type
+              DW_AT_calling_convention	(DW_CC_pass_by_value)
+              DW_AT_name	("rebind<DamageController::Melee>")
+              DW_AT_byte_size	(0x01)
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\ext\alloc_traits.h")
+              DW_AT_decl_line	(116)
+
+0x00101f4e: DW_TAG_class_type
+              DW_AT_calling_convention	(DW_CC_pass_by_reference)
+              DW_AT_name	("new_allocator<DamageController::Melee>")
+              DW_AT_byte_size	(0x01)
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\ext\new_allocator.h")
+              DW_AT_decl_line	(58)
+
+0x00101f86: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNK9__gnu_cxx13new_allocatorIN16DamageController5MeleeEE7addressERS2_")
+              DW_AT_name	("address")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\ext\new_allocator.h")
+              DW_AT_decl_line	(89)
+              DW_AT_type	(0x00101fa1 "pointer")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x00101fb7: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNK9__gnu_cxx13new_allocatorIN16DamageController5MeleeEE7addressERKS2_")
+              DW_AT_name	("address")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\ext\new_allocator.h")
+              DW_AT_decl_line	(93)
+              DW_AT_type	(0x00101fd2 "const_pointer")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x00101fe8: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZN9__gnu_cxx13new_allocatorIN16DamageController5MeleeEE8allocateEyPKv")
+              DW_AT_name	("allocate")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\ext\new_allocator.h")
+              DW_AT_decl_line	(99)
+              DW_AT_type	(0x00101fa1 "pointer")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x00102008: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZN9__gnu_cxx13new_allocatorIN16DamageController5MeleeEE10deallocateEPS2_y")
+              DW_AT_name	("deallocate")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\ext\new_allocator.h")
+              DW_AT_decl_line	(116)
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x00102024: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNK9__gnu_cxx13new_allocatorIN16DamageController5MeleeEE8max_sizeEv")
+              DW_AT_name	("max_size")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\ext\new_allocator.h")
+              DW_AT_decl_line	(129)
+              DW_AT_type	(0x0010b0c9 "size_type")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x00102043: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZN9__gnu_cxx13new_allocatorIN16DamageController5MeleeEE9constructIS2_JEEEvPT_DpOT0_")
+              DW_AT_name	("construct<DamageController::Melee>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\ext\new_allocator.h")
+              DW_AT_decl_line	(135)
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x00102068: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZN9__gnu_cxx13new_allocatorIN16DamageController5MeleeEE7destroyIS2_EEvPT_")
+              DW_AT_name	("destroy<DamageController::Melee>")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\ext\new_allocator.h")
+              DW_AT_decl_line	(140)
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x00102089: DW_TAG_class_type
+              DW_AT_calling_convention	(DW_CC_pass_by_value)
+              DW_AT_name	("__normal_iterator<DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > >")
+              DW_AT_byte_size	(0x08)
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(764)
+
+0x001020c4: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNK9__gnu_cxx17__normal_iteratorIPN16DamageController5MeleeESt6vectorIS2_SaIS2_EEEdeEv")
+              DW_AT_name	("operator*")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(796)
+              DW_AT_type	(0x001020db "reference")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x001020e7: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNK9__gnu_cxx17__normal_iteratorIPN16DamageController5MeleeESt6vectorIS2_SaIS2_EEEptEv")
+              DW_AT_name	("operator->")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(800)
+              DW_AT_type	(0x001020fe "pointer")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x0010210a: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZN9__gnu_cxx17__normal_iteratorIPN16DamageController5MeleeESt6vectorIS2_SaIS2_EEEppEv")
+              DW_AT_name	("operator++")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(804)
+              DW_AT_type	(0x00113082 "__normal_iterator<DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > >&")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x00102121: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZN9__gnu_cxx17__normal_iteratorIPN16DamageController5MeleeESt6vectorIS2_SaIS2_EEEppEi")
+              DW_AT_name	("operator++")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(811)
+              DW_AT_type	(0x00102089 "__normal_iterator<DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > >")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x0010213d: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZN9__gnu_cxx17__normal_iteratorIPN16DamageController5MeleeESt6vectorIS2_SaIS2_EEEmmEv")
+              DW_AT_name	("operator--")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(816)
+              DW_AT_type	(0x00113082 "__normal_iterator<DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > >&")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x00102154: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZN9__gnu_cxx17__normal_iteratorIPN16DamageController5MeleeESt6vectorIS2_SaIS2_EEEmmEi")
+              DW_AT_name	("operator--")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(823)
+              DW_AT_type	(0x00102089 "__normal_iterator<DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > >")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x00102170: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNK9__gnu_cxx17__normal_iteratorIPN16DamageController5MeleeESt6vectorIS2_SaIS2_EEEixEx")
+              DW_AT_name	("operator[]")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(828)
+              DW_AT_type	(0x001020db "reference")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x00102198: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZN9__gnu_cxx17__normal_iteratorIPN16DamageController5MeleeESt6vectorIS2_SaIS2_EEEpLEx")
+              DW_AT_name	("operator+=")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(832)
+              DW_AT_type	(0x00113082 "__normal_iterator<DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > >&")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x001021b4: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNK9__gnu_cxx17__normal_iteratorIPN16DamageController5MeleeESt6vectorIS2_SaIS2_EEEplEx")
+              DW_AT_name	("operator+")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(836)
+              DW_AT_type	(0x00102089 "__normal_iterator<DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > >")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x001021d0: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZN9__gnu_cxx17__normal_iteratorIPN16DamageController5MeleeESt6vectorIS2_SaIS2_EEEmIEx")
+              DW_AT_name	("operator-=")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(840)
+              DW_AT_type	(0x00113082 "__normal_iterator<DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > >&")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x001021ec: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNK9__gnu_cxx17__normal_iteratorIPN16DamageController5MeleeESt6vectorIS2_SaIS2_EEEmiEx")
+              DW_AT_name	("operator-")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(844)
+              DW_AT_type	(0x00102089 "__normal_iterator<DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > >")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x00102208: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNK9__gnu_cxx17__normal_iteratorIPN16DamageController5MeleeESt6vectorIS2_SaIS2_EEE4baseEv")
+              DW_AT_name	("base")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(848)
+              DW_AT_type	(0x0011306e "const Melee*&")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x00102232: DW_TAG_class_type
+              DW_AT_calling_convention	(DW_CC_pass_by_value)
+              DW_AT_name	("__normal_iterator<const DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > >")
+              DW_AT_byte_size	(0x08)
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(764)
+
+0x0010226d: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNK9__gnu_cxx17__normal_iteratorIPKN16DamageController5MeleeESt6vectorIS2_SaIS2_EEEdeEv")
+              DW_AT_name	("operator*")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(796)
+              DW_AT_type	(0x00102284 "reference")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x00102290: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNK9__gnu_cxx17__normal_iteratorIPKN16DamageController5MeleeESt6vectorIS2_SaIS2_EEEptEv")
+              DW_AT_name	("operator->")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(800)
+              DW_AT_type	(0x001022a7 "pointer")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x001022b3: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZN9__gnu_cxx17__normal_iteratorIPKN16DamageController5MeleeESt6vectorIS2_SaIS2_EEEppEv")
+              DW_AT_name	("operator++")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(804)
+              DW_AT_type	(0x001130a0 "__normal_iterator<const DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > >&")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x001022ca: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZN9__gnu_cxx17__normal_iteratorIPKN16DamageController5MeleeESt6vectorIS2_SaIS2_EEEppEi")
+              DW_AT_name	("operator++")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(811)
+              DW_AT_type	(0x00102232 "__normal_iterator<const DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > >")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x001022e6: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZN9__gnu_cxx17__normal_iteratorIPKN16DamageController5MeleeESt6vectorIS2_SaIS2_EEEmmEv")
+              DW_AT_name	("operator--")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(816)
+              DW_AT_type	(0x001130a0 "__normal_iterator<const DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > >&")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x001022fd: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZN9__gnu_cxx17__normal_iteratorIPKN16DamageController5MeleeESt6vectorIS2_SaIS2_EEEmmEi")
+              DW_AT_name	("operator--")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(823)
+              DW_AT_type	(0x00102232 "__normal_iterator<const DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > >")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x00102319: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNK9__gnu_cxx17__normal_iteratorIPKN16DamageController5MeleeESt6vectorIS2_SaIS2_EEEixEx")
+              DW_AT_name	("operator[]")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(828)
+              DW_AT_type	(0x00102284 "reference")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x00102341: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZN9__gnu_cxx17__normal_iteratorIPKN16DamageController5MeleeESt6vectorIS2_SaIS2_EEEpLEx")
+              DW_AT_name	("operator+=")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(832)
+              DW_AT_type	(0x001130a0 "__normal_iterator<const DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > >&")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x0010235d: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNK9__gnu_cxx17__normal_iteratorIPKN16DamageController5MeleeESt6vectorIS2_SaIS2_EEEplEx")
+              DW_AT_name	("operator+")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(836)
+              DW_AT_type	(0x00102232 "__normal_iterator<const DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > >")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x00102379: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZN9__gnu_cxx17__normal_iteratorIPKN16DamageController5MeleeESt6vectorIS2_SaIS2_EEEmIEx")
+              DW_AT_name	("operator-=")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(840)
+              DW_AT_type	(0x001130a0 "__normal_iterator<const DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > >&")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x00102395: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNK9__gnu_cxx17__normal_iteratorIPKN16DamageController5MeleeESt6vectorIS2_SaIS2_EEEmiEx")
+              DW_AT_name	("operator-")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(844)
+              DW_AT_type	(0x00102232 "__normal_iterator<const DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > >")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x001023b1: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNK9__gnu_cxx17__normal_iteratorIPKN16DamageController5MeleeESt6vectorIS2_SaIS2_EEE4baseEv")
+              DW_AT_name	("base")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(848)
+              DW_AT_type	(0x0011308c "const const Melee*&")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x001042f4: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140179560)
+              DW_AT_high_pc	(0x00000001401795a3)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZN9__gnu_cxxneIPKN16DamageController5MeleeESt6vectorIS2_SaIS2_EEEEbRKNS_17__normal_iteratorIT_T0_EESD_")
+              DW_AT_name	("operator!=<const DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > >")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(884)
+              DW_AT_type	(0x000fe399 "bool")
+              DW_AT_external	(true)
+
+0x0010473d: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401791a0)
+              DW_AT_high_pc	(0x00000001401791e7)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZN9__gnu_cxxmiIPN16DamageController5MeleeESt6vectorIS2_SaIS2_EEEENS_17__normal_iteratorIT_T0_E15difference_typeERKSA_SD_")
+              DW_AT_name	("operator-<DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > >")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(966)
+              DW_AT_type	(0x0010218c "difference_type")
+              DW_AT_external	(true)
+
+0x0010478c: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140178e40)
+              DW_AT_high_pc	(0x0000000140178e83)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZN9__gnu_cxxeqIPKN16DamageController5MeleeESt6vectorIS2_SaIS2_EEEEbRKNS_17__normal_iteratorIT_T0_EESD_")
+              DW_AT_name	("operator==<const DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > >")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(870)
+              DW_AT_type	(0x000fe399 "bool")
+              DW_AT_external	(true)
+
+0x001047db: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140179790)
+              DW_AT_high_pc	(0x00000001401797d3)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_linkage_name	("_ZN9__gnu_cxxneIPN16DamageController5MeleeESt6vectorIS2_SaIS2_EEEEbRKNS_17__normal_iteratorIT_T0_EESC_")
+              DW_AT_name	("operator!=<DamageController::Melee *, std::vector<DamageController::Melee, std::allocator<DamageController::Melee> > >")
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_iterator.h")
+              DW_AT_decl_line	(884)
+              DW_AT_type	(0x000fe399 "bool")
+              DW_AT_external	(true)
+
+0x001124ad: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZN8Entities12Controllable4TickERK10MultiArrayILi2EiER16DamageController")
+              DW_AT_name	("Tick")
+              DW_AT_decl_file	("z:\Projects\C++\LD44\src/game\main.cpp")
+              DW_AT_decl_line	(466)
+              DW_AT_virtuality	(DW_VIRTUALITY_virtual)
+              DW_AT_vtable_elem_location	(<0x2> 10 02 )
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_containing_type	(0x00112485)
+
+0x0011259d: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZN8Entities16PhysicalKillable11CheckDamageERK10MultiArrayILi2EiER16DamageControllerNS5_4TeamE")
+              DW_AT_name	("CheckDamage")
+              DW_AT_decl_file	("z:\Projects\C++\LD44\src/game\main.cpp")
+              DW_AT_decl_line	(429)
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+
+0x001125be: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZN8Entities16PhysicalKillable27UpdatePositionAvoidingWallsERK10MultiArrayILi2EiER16DamageControllerNS5_4TeamE")
+              DW_AT_name	("UpdatePositionAvoidingWalls")
+              DW_AT_decl_file	("z:\Projects\C++\LD44\src/game\main.cpp")
+              DW_AT_decl_line	(455)
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+
+0x0011284a: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZN8Entities6Knight4TickERK10MultiArrayILi2EiER16DamageController")
+              DW_AT_name	("Tick")
+              DW_AT_decl_file	("z:\Projects\C++\LD44\src/game\main.cpp")
+              DW_AT_decl_line	(509)
+              DW_AT_virtuality	(DW_VIRTUALITY_virtual)
+              DW_AT_vtable_elem_location	(<0x2> 10 02 )
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_containing_type	(0x001127f3)
+
+0x00112e99: DW_TAG_class_type
+              DW_AT_calling_convention	(DW_CC_pass_by_reference)
+              DW_AT_name	("DamageController")
+              DW_AT_byte_size	(0x30)
+              DW_AT_decl_file	("z:\Projects\C++\LD44\src/game\main.cpp")
+              DW_AT_decl_line	(194)
+
+0x00112f0c: DW_TAG_subprogram
+              DW_AT_name	("DamageController")
+              DW_AT_decl_file	("z:\Projects\C++\LD44\src/game\main.cpp")
+              DW_AT_decl_line	(211)
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x00112f1a: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZN16DamageController8AddMeleeENS_4TeamEN4Math6Vector3vecILi2EfEES4_")
+              DW_AT_name	("AddMelee")
+              DW_AT_decl_file	("z:\Projects\C++\LD44\src/game\main.cpp")
+              DW_AT_decl_line	(213)
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x00112f3b: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZN16DamageController4TickEv")
+              DW_AT_name	("Tick")
+              DW_AT_decl_file	("z:\Projects\C++\LD44\src/game\main.cpp")
+              DW_AT_decl_line	(221)
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x00112f4d: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZNK16DamageController6RenderEN4Math6Vector3vecILi2EiEE")
+              DW_AT_name	("Render")
+              DW_AT_decl_file	("z:\Projects\C++\LD44\src/game\main.cpp")
+              DW_AT_decl_line	(227)
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x00112f64: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZN16DamageController12PosDangerousENS_4TeamEN4Math6Vector3vecILi2EfEES4_")
+              DW_AT_name	("PosDangerous")
+              DW_AT_decl_file	("z:\Projects\C++\LD44\src/game\main.cpp")
+              DW_AT_decl_line	(241)
+              DW_AT_type	(0x000fe399 "bool")
+              DW_AT_declaration	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x00112f89: DW_TAG_subprogram
+              DW_AT_linkage_name	("_ZN16DamageControlleraSERKS_")
+              DW_AT_name	("operator=")
+              DW_AT_type	(0x00112e94 "DamageController&")
+              DW_AT_declaration	(true)
+              DW_AT_artificial	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x00112fa3: DW_TAG_subprogram
+              DW_AT_name	("~DamageController")
+              DW_AT_declaration	(true)
+              DW_AT_artificial	(true)
+              DW_AT_external	(true)
+              DW_AT_accessibility	(DW_ACCESS_public)
+
+0x0012014e: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401124c0)
+              DW_AT_high_pc	(0x00000001401124ec)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x0012016a)
+              DW_AT_linkage_name	("_ZN16DamageControllerC2Ev")
+              DW_AT_specification	(0x00112f0c "DamageController")
+
+0x001211a3: DW_TAG_subprogram
+              DW_AT_low_pc	(0x000000014019c140)
+              DW_AT_high_pc	(0x000000014019c16c)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x001211bf)
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EEC2Ev")
+              DW_AT_specification	(0x000ebb22 "vector")
+
+0x001211cd: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140191e80)
+              DW_AT_high_pc	(0x0000000140191e99)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x001211e9)
+              DW_AT_linkage_name	("_ZNSt12_Vector_baseIN16DamageController5MeleeESaIS1_EEC2Ev")
+              DW_AT_specification	(0x000ec41f "_Vector_base")
+
+0x001211f7: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140191d90)
+              DW_AT_high_pc	(0x0000000140191dcf)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00121213)
+              DW_AT_linkage_name	("_ZNSt12_Vector_baseIN16DamageController5MeleeESaIS1_EE12_Vector_implC2Ev")
+              DW_AT_specification	(0x000ec36c "_Vector_impl")
+
+0x00121221: DW_TAG_subprogram
+              DW_AT_low_pc	(0x000000014018dd30)
+              DW_AT_high_pc	(0x000000014018dd49)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x0012123d)
+              DW_AT_linkage_name	("_ZNSaIN16DamageController5MeleeEEC2Ev")
+              DW_AT_specification	(0x000ec63e "allocator")
+
+0x0012124b: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140176f60)
+              DW_AT_high_pc	(0x0000000140176f67)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00121267)
+              DW_AT_linkage_name	("_ZN9__gnu_cxx13new_allocatorIN16DamageController5MeleeEEC2Ev")
+              DW_AT_specification	(0x00101f57 "new_allocator")
+
+0x00121b48: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401123a0)
+              DW_AT_high_pc	(0x00000001401123e8)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00121b60)
+              DW_AT_specification	(0x00112f3b "_ZN16DamageController4TickEv")
+
+0x001229f6: DW_TAG_subprogram
+              DW_AT_low_pc	(0x000000014019c1f0)
+              DW_AT_high_pc	(0x000000014019c236)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00122a0e)
+              DW_AT_specification	(0x000ebc32 "_ZNSt6vectorIN16DamageController5MeleeESaIS1_EEaSEOS3_")
+
+0x00122a3b: DW_TAG_subprogram
+              DW_AT_low_pc	(0x000000014019c0f0)
+              DW_AT_high_pc	(0x000000014019c10c)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00122a53)
+              DW_AT_specification	(0x000ec0ea "_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE5clearEv")
+
+0x00122a61: DW_TAG_subprogram
+              DW_AT_low_pc	(0x000000014019b960)
+              DW_AT_high_pc	(0x000000014019ba3b)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00122a79)
+              DW_AT_specification	(0x000ec270 "_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE14_M_move_assignEOS3_St17integral_constantIbLb1EE")
+
+0x00122ab4: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140189620)
+              DW_AT_high_pc	(0x000000014018965a)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00122acc)
+              DW_AT_specification	(0x000ec3ff "_ZNKSt12_Vector_baseIN16DamageController5MeleeESaIS1_EE13get_allocatorEv")
+
+0x00122ada: DW_TAG_subprogram
+              DW_AT_low_pc	(0x000000014019c110)
+              DW_AT_high_pc	(0x000000014019c133)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00122af6)
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EEC2ERKS2_")
+              DW_AT_specification	(0x000ebb31 "vector")
+
+0x00122b13: DW_TAG_subprogram
+              DW_AT_low_pc	(0x000000014018dd50)
+              DW_AT_high_pc	(0x000000014018dd69)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00122b2f)
+              DW_AT_linkage_name	("_ZNSaIN16DamageController5MeleeEED2Ev")
+              DW_AT_specification	(0x000ec65f "~allocator")
+
+0x00122b3d: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140191ce0)
+              DW_AT_high_pc	(0x0000000140191d36)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00122b55)
+              DW_AT_specification	(0x000ec39d "_ZNSt12_Vector_baseIN16DamageController5MeleeESaIS1_EE12_Vector_impl12_M_swap_dataERS4_")
+
+0x00122b71: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140191e40)
+              DW_AT_high_pc	(0x0000000140191e4e)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00122b89)
+              DW_AT_specification	(0x000ec3d5 "_ZNSt12_Vector_baseIN16DamageController5MeleeESaIS1_EE19_M_get_Tp_allocatorEv")
+
+0x00122b97: DW_TAG_subprogram
+              DW_AT_low_pc	(0x000000014019c170)
+              DW_AT_high_pc	(0x000000014019c1e7)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00122bb3)
+              DW_AT_linkage_name	("_ZNSt6vectorIN16DamageController5MeleeESaIS1_EED2Ev")
+              DW_AT_specification	(0x000ebc07 "~vector")
+
+0x00122bc2: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140189660)
+              DW_AT_high_pc	(0x000000014018966e)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00122bda)
+              DW_AT_specification	(0x000ec3ea "_ZNKSt12_Vector_baseIN16DamageController5MeleeESaIS1_EE19_M_get_Tp_allocatorEv")
+
+0x00122be8: DW_TAG_subprogram
+              DW_AT_low_pc	(0x000000014018dd00)
+              DW_AT_high_pc	(0x000000014018dd23)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00122c04)
+              DW_AT_linkage_name	("_ZNSaIN16DamageController5MeleeEEC2ERKS1_")
+              DW_AT_specification	(0x000ec64c "allocator")
+
+0x00122c20: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140176f40)
+              DW_AT_high_pc	(0x0000000140176f52)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00122c3c)
+              DW_AT_linkage_name	("_ZN9__gnu_cxx13new_allocatorIN16DamageController5MeleeEEC2ERKS3_")
+              DW_AT_specification	(0x00101f65 "new_allocator")
+
+0x00122c54: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140191e50)
+              DW_AT_high_pc	(0x0000000140191e73)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00122c70)
+              DW_AT_linkage_name	("_ZNSt12_Vector_baseIN16DamageController5MeleeESaIS1_EEC2ERKS2_")
+              DW_AT_specification	(0x000ec42c "_Vector_base")
+
+0x00122c8c: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140191d40)
+              DW_AT_high_pc	(0x0000000140191d8c)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00122ca8)
+              DW_AT_linkage_name	("_ZNSt12_Vector_baseIN16DamageController5MeleeESaIS1_EE12_Vector_implC2ERKS2_")
+              DW_AT_specification	(0x000ec379 "_Vector_impl")
+
+0x00122cc4: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140176f70)
+              DW_AT_high_pc	(0x0000000140176f77)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00122ce0)
+              DW_AT_linkage_name	("_ZN9__gnu_cxx13new_allocatorIN16DamageController5MeleeEED2Ev")
+              DW_AT_specification	(0x00101f78 "~new_allocator")
+
+0x00122cee: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140191ea0)
+              DW_AT_high_pc	(0x0000000140191f17)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00122d0a)
+              DW_AT_linkage_name	("_ZNSt12_Vector_baseIN16DamageController5MeleeESaIS1_EED2Ev")
+              DW_AT_specification	(0x000ec4a6 "~_Vector_base")
+
+0x00122d19: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140191160)
+              DW_AT_high_pc	(0x0000000140191172)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_specification	(0x000f492f "_ZNSt12_Destroy_auxILb1EE9__destroyIPN16DamageController5MeleeEEEvT_S5_")
+
+0x00122d4b: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140191df0)
+              DW_AT_high_pc	(0x0000000140191e36)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00122d63)
+              DW_AT_specification	(0x000ec4cf "_ZNSt12_Vector_baseIN16DamageController5MeleeESaIS1_EE13_M_deallocateEPS1_y")
+
+0x00122d90: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140191dd0)
+              DW_AT_high_pc	(0x0000000140191de9)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00122dae)
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\stl_vector.h")
+              DW_AT_decl_line	(88)
+              DW_AT_linkage_name	("_ZNSt12_Vector_baseIN16DamageController5MeleeESaIS1_EE12_Vector_implD2Ev")
+              DW_AT_specification	(0x000ec3b3 "~_Vector_impl")
+
+0x00122dbc: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140195ba0)
+              DW_AT_high_pc	(0x0000000140195bcd)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_specification	(0x000ec573 "_ZNSt16allocator_traitsISaIN16DamageController5MeleeEEE10deallocateERS2_PS1_y")
+
+0x00122dfe: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140176e60)
+              DW_AT_high_pc	(0x0000000140176e83)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00122e16)
+              DW_AT_specification	(0x00102008 "_ZN9__gnu_cxx13new_allocatorIN16DamageController5MeleeEE10deallocateEPS2_y")
+
+0x00122e3c: DW_TAG_subprogram
+              DW_AT_low_pc	(0x000000014019ba40)
+              DW_AT_high_pc	(0x000000014019badc)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00122e54)
+              DW_AT_specification	(0x000ec20f "_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE15_M_erase_at_endEPS1_")
+
+0x00122f72: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140112530)
+              DW_AT_high_pc	(0x0000000140112580)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00122f8c)
+              DW_AT_decl_file	("z:\Projects\C++\LD44\src/game\main.cpp")
+              DW_AT_decl_line	(194)
+              DW_AT_specification	(0x00112f89 "_ZN16DamageControlleraSERKS_")
+
+0x00124053: DW_TAG_subprogram
+              DW_AT_low_pc	(0x000000014019c240)
+              DW_AT_high_pc	(0x000000014019c598)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x0012406d)
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\vector.tcc")
+              DW_AT_decl_line	(187)
+              DW_AT_specification	(0x000ebc16 "_ZNSt6vectorIN16DamageController5MeleeESaIS1_EEaSERKS3_")
+
+0x001240c6: DW_TAG_subprogram
+              DW_AT_low_pc	(0x000000014018b0a0)
+              DW_AT_high_pc	(0x000000014018b0bf)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x001240de)
+              DW_AT_specification	(0x000ebde3 "_ZNKSt6vectorIN16DamageController5MeleeESaIS1_EE4sizeEv")
+
+0x001240ec: DW_TAG_subprogram
+              DW_AT_low_pc	(0x000000014018b140)
+              DW_AT_high_pc	(0x000000014018b15f)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00124104)
+              DW_AT_specification	(0x000ebe59 "_ZNKSt6vectorIN16DamageController5MeleeESaIS1_EE8capacityEv")
+
+0x00124112: DW_TAG_subprogram
+              DW_AT_low_pc	(0x000000014019bed0)
+              DW_AT_high_pc	(0x000000014019bfe0)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x0012412a)
+              DW_AT_specification	(0x000ec2ba "_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE20_M_allocate_and_copyIN9__gnu_cxx17__normal_iteratorIPKS1_S3_EEEEPS1_yT_SB_")
+
+0x00124182: DW_TAG_subprogram
+              DW_AT_low_pc	(0x000000014018b0c0)
+              DW_AT_high_pc	(0x000000014018b0ef)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x0012419a)
+              DW_AT_specification	(0x000ebcc2 "_ZNKSt6vectorIN16DamageController5MeleeESaIS1_EE5beginEv")
+
+0x001241a8: DW_TAG_subprogram
+              DW_AT_low_pc	(0x000000014018b070)
+              DW_AT_high_pc	(0x000000014018b0a0)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x001241c0)
+              DW_AT_specification	(0x000ebcfc "_ZNKSt6vectorIN16DamageController5MeleeESaIS1_EE3endEv")
+
+0x001241ce: DW_TAG_subprogram
+              DW_AT_low_pc	(0x000000014019c0c0)
+              DW_AT_high_pc	(0x000000014019c0ef)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x001241e6)
+              DW_AT_specification	(0x000ebc9f "_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE5beginEv")
+
+0x001241f4: DW_TAG_subprogram
+              DW_AT_low_pc	(0x000000014019bfe0)
+              DW_AT_high_pc	(0x000000014019c013)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x0012420c)
+              DW_AT_specification	(0x000ebce5 "_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE3endEv")
+
+0x0012421a: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140191c80)
+              DW_AT_high_pc	(0x0000000140191cd8)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00124232)
+              DW_AT_specification	(0x000ec4b4 "_ZNSt12_Vector_baseIN16DamageController5MeleeESaIS1_EE11_M_allocateEy")
+
+0x00124250: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140195c00)
+              DW_AT_high_pc	(0x0000000140195c28)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_specification	(0x000ec520 "_ZNSt16allocator_traitsISaIN16DamageController5MeleeEEE8allocateERS2_y")
+
+0x00124283: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140176eb0)
+              DW_AT_high_pc	(0x0000000140176efd)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x0012429b)
+              DW_AT_specification	(0x00101fe8 "_ZN9__gnu_cxx13new_allocatorIN16DamageController5MeleeEE8allocateEyPKv")
+
+0x001242c2: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401886f0)
+              DW_AT_high_pc	(0x0000000140188701)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x001242da)
+              DW_AT_specification	(0x00102024 "_ZNK9__gnu_cxx13new_allocatorIN16DamageController5MeleeEE8max_sizeEv")
+
+0x001242e8: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140197200)
+              DW_AT_high_pc	(0x0000000140197304)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_specification	(0x000f8034 "_ZNSt20__uninitialized_copyILb0EE13__uninit_copyIN9__gnu_cxx17__normal_iteratorIPKN16DamageController5MeleeESt6vectorIS5_SaIS5_EEEEPS5_EET0_T_SE_SD_")
+
+0x0012434b: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140188bd0)
+              DW_AT_high_pc	(0x0000000140188bde)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00124363)
+              DW_AT_specification	(0x0010226d "_ZNK9__gnu_cxx17__normal_iteratorIPKN16DamageController5MeleeESt6vectorIS2_SaIS2_EEEdeEv")
+
+0x00124371: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140178760)
+              DW_AT_high_pc	(0x0000000140178778)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00124389)
+              DW_AT_specification	(0x001022b3 "_ZN9__gnu_cxx17__normal_iteratorIPKN16DamageController5MeleeESt6vectorIS2_SaIS2_EEEppEv")
+
+0x00124397: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140188bc0)
+              DW_AT_high_pc	(0x0000000140188bcb)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x001243af)
+              DW_AT_specification	(0x001023b1 "_ZNK9__gnu_cxx17__normal_iteratorIPKN16DamageController5MeleeESt6vectorIS2_SaIS2_EEE4baseEv")
+
+0x001243bd: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140178730)
+              DW_AT_high_pc	(0x0000000140178751)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x001243d9)
+              DW_AT_linkage_name	("_ZN9__gnu_cxx17__normal_iteratorIPKN16DamageController5MeleeESt6vectorIS2_SaIS2_EEEC2ERKS4_")
+              DW_AT_specification	(0x00102259 "__normal_iterator")
+
+0x001243f6: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401910e0)
+              DW_AT_high_pc	(0x00000001401910f2)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_specification	(0x000f498c "_ZNSt12_Destroy_auxILb1EE9__destroyIN9__gnu_cxx17__normal_iteratorIPN16DamageController5MeleeESt6vectorIS5_SaIS5_EEEEEEvT_SB_")
+
+0x00124428: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140178ac0)
+              DW_AT_high_pc	(0x0000000140178ae1)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00124444)
+              DW_AT_linkage_name	("_ZN9__gnu_cxx17__normal_iteratorIPN16DamageController5MeleeESt6vectorIS2_SaIS2_EEEC2ERKS3_")
+              DW_AT_specification	(0x001020b0 "__normal_iterator")
+
+0x00124461: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401903c0)
+              DW_AT_high_pc	(0x0000000140190453)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_specification	(0x000f8466 "_ZNSt11__copy_moveILb0ELb0ESt26random_access_iterator_tagE8__copy_mIPKN16DamageController5MeleeEPS4_EET0_T_S9_S8_")
+
+0x001244de: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140188d60)
+              DW_AT_high_pc	(0x0000000140188d6b)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x001244f6)
+              DW_AT_specification	(0x00102208 "_ZNK9__gnu_cxx17__normal_iteratorIPN16DamageController5MeleeESt6vectorIS2_SaIS2_EEE4baseEv")
+
+0x00124504: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401904f0)
+              DW_AT_high_pc	(0x0000000140190583)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_specification	(0x000f8498 "_ZNSt11__copy_moveILb0ELb0ESt26random_access_iterator_tagE8__copy_mIPN16DamageController5MeleeES5_EET0_T_S7_S6_")
+
+0x00124581: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401976f0)
+              DW_AT_high_pc	(0x00000001401977d8)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_specification	(0x000f8065 "_ZNSt20__uninitialized_copyILb0EE13__uninit_copyIPN16DamageController5MeleeES4_EET0_T_S6_S5_")
+
+0x00124e05: DW_TAG_subprogram
+              DW_AT_low_pc	(0x000000014017a360)
+              DW_AT_high_pc	(0x000000014017a490)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00124e1d)
+              DW_AT_specification	(0x00112f4d "_ZNK16DamageController6RenderEN4Math6Vector3vecILi2EiEE")
+
+0x00125952: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401bfaa0)
+              DW_AT_high_pc	(0x00000001401bfbf8)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x0012596e)
+              DW_AT_linkage_name	("_ZZNK16DamageController6RenderEN4Math6Vector3vecILi2EiEEENKUlRKNS_5MeleeEE_clES6_")
+              DW_AT_specification	(0x00124f04 "operator()")
+
+0x00125bc7: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401124f0)
+              DW_AT_high_pc	(0x0000000140112522)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00125be5)
+              DW_AT_decl_file	("z:\Projects\C++\LD44\src/game\main.cpp")
+              DW_AT_decl_line	(194)
+              DW_AT_linkage_name	("_ZN16DamageControllerD2Ev")
+              DW_AT_specification	(0x00112fa3 "~DamageController")
+
+0x00133557: DW_TAG_subprogram
+              DW_AT_low_pc	(0x000000014016f8d0)
+              DW_AT_high_pc	(0x000000014016ff07)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x0013356f)
+              DW_AT_specification	(0x0011284a "_ZN8Entities6Knight4TickERK10MultiArrayILi2EiER16DamageController")
+
+0x0013377f: DW_TAG_subprogram
+              DW_AT_low_pc	(0x000000014016ef70)
+              DW_AT_high_pc	(0x000000014016ef87)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00133797)
+              DW_AT_specification	(0x001124ad "_ZN8Entities12Controllable4TickERK10MultiArrayILi2EiER16DamageController")
+
+0x0013496f: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140112440)
+              DW_AT_high_pc	(0x00000001401124b2)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00134987)
+              DW_AT_specification	(0x00112f1a "_ZN16DamageController8AddMeleeENS_4TeamEN4Math6Vector3vecILi2EfEES4_")
+
+0x00134a0e: DW_TAG_subprogram
+              DW_AT_low_pc	(0x000000014016f270)
+              DW_AT_high_pc	(0x000000014016f2c4)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00134a26)
+              DW_AT_specification	(0x001125be "_ZN8Entities16PhysicalKillable27UpdatePositionAvoidingWallsERK10MultiArrayILi2EiER16DamageControllerNS5_4TeamE")
+
+0x00134aae: DW_TAG_subprogram
+              DW_AT_low_pc	(0x000000014019b8e0)
+              DW_AT_high_pc	(0x000000014019b95b)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00134ac8)
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\vector.tcc")
+              DW_AT_decl_line	(98)
+              DW_AT_specification	(0x000ec2e9 "_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE12emplace_backIJEEERS1_DpOT_")
+
+0x00134adb: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140195c50)
+              DW_AT_high_pc	(0x0000000140195c73)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_specification	(0x000ec5e8 "_ZNSt16allocator_traitsISaIN16DamageController5MeleeEEE9constructIS1_JEEEvRS2_PT_DpOT0_")
+
+0x00134b1c: DW_TAG_subprogram
+              DW_AT_low_pc	(0x000000014019bae0)
+              DW_AT_high_pc	(0x000000014019bec2)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00134b37)
+              DW_AT_decl_file	("Z:\Lander\msys2\mingw64\include\c++\8.3.0\bits\vector.tcc")
+              DW_AT_decl_line	(414)
+              DW_AT_specification	(0x000ec305 "_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE17_M_realloc_insertIJEEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_")
+
+0x00134bbb: DW_TAG_subprogram
+              DW_AT_low_pc	(0x000000014019c020)
+              DW_AT_high_pc	(0x000000014019c0bc)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00134bd3)
+              DW_AT_specification	(0x000ebf6d "_ZNSt6vectorIN16DamageController5MeleeESaIS1_EE4backEv")
+
+0x00134be2: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140176f00)
+              DW_AT_high_pc	(0x0000000140176f3d)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00134bfa)
+              DW_AT_specification	(0x00102043 "_ZN9__gnu_cxx13new_allocatorIN16DamageController5MeleeEE9constructIS2_JEEEvPT_DpOT0_")
+
+0x00134c29: DW_TAG_subprogram
+              DW_AT_low_pc	(0x00000001401123f0)
+              DW_AT_high_pc	(0x0000000140112435)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00134c47)
+              DW_AT_decl_file	("z:\Projects\C++\LD44\src/game\main.cpp")
+              DW_AT_decl_line	(200)
+              DW_AT_linkage_name	("_ZN16DamageController5MeleeC2Ev")
+              DW_AT_specification	(0x00112edb "Melee")
+
+0x00134c55: DW_TAG_subprogram
+              DW_AT_low_pc	(0x000000014018af70)
+              DW_AT_high_pc	(0x000000014018b066)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00134c6d)
+              DW_AT_specification	(0x000ec1e2 "_ZNKSt6vectorIN16DamageController5MeleeESaIS1_EE12_M_check_lenEyPKc")
+
+0x00134cac: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140195bd0)
+              DW_AT_high_pc	(0x0000000140195bf3)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_specification	(0x000ec60d "_ZNSt16allocator_traitsISaIN16DamageController5MeleeEEE7destroyIS1_EEvRS2_PT_")
+
+0x00134ce8: DW_TAG_subprogram
+              DW_AT_low_pc	(0x000000014018b160)
+              DW_AT_high_pc	(0x000000014018b181)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00134d00)
+              DW_AT_specification	(0x000ebdfa "_ZNKSt6vectorIN16DamageController5MeleeESaIS1_EE8max_sizeEv")
+
+0x00134d0e: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140195c30)
+              DW_AT_high_pc	(0x0000000140195c49)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_specification	(0x000ec58f "_ZNSt16allocator_traitsISaIN16DamageController5MeleeEEE8max_sizeERKS2_")
+
+0x00134d32: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140197b30)
+              DW_AT_high_pc	(0x0000000140197c52)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_specification	(0x000f8129 "_ZNSt20__uninitialized_copyILb0EE13__uninit_copyISt13move_iteratorIPN16DamageController5MeleeEES5_EET0_T_S8_S7_")
+
+0x00134d95: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140189980)
+              DW_AT_high_pc	(0x000000014018998e)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00134dad)
+              DW_AT_specification	(0x000f41a9 "_ZNKSt13move_iteratorIPN16DamageController5MeleeEEdeEv")
+
+0x00134dbb: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140194380)
+              DW_AT_high_pc	(0x0000000140194398)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00134dd3)
+              DW_AT_specification	(0x000f41ef "_ZNSt13move_iteratorIPN16DamageController5MeleeEEppEv")
+
+0x00134de1: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140189970)
+              DW_AT_high_pc	(0x000000014018997e)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00134df9)
+              DW_AT_specification	(0x000f4192 "_ZNKSt13move_iteratorIPN16DamageController5MeleeEE4baseEv")
+
+0x00134e07: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140194360)
+              DW_AT_high_pc	(0x000000014019437e)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00134e23)
+              DW_AT_linkage_name	("_ZNSt13move_iteratorIPN16DamageController5MeleeEEC2ES2_")
+              DW_AT_specification	(0x000f4172 "move_iterator")
+
+0x00134e40: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140176e90)
+              DW_AT_high_pc	(0x0000000140176ea2)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00134e58)
+              DW_AT_specification	(0x00102068 "_ZN9__gnu_cxx13new_allocatorIN16DamageController5MeleeEE7destroyIS2_EEvPT_")
+
+0x00134e7d: DW_TAG_subprogram
+              DW_AT_low_pc	(0x000000014018b0f0)
+              DW_AT_high_pc	(0x000000014018b135)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00134e95)
+              DW_AT_specification	(0x000ebe70 "_ZNKSt6vectorIN16DamageController5MeleeESaIS1_EE5emptyEv")
+
+0x00134ea4: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140188d80)
+              DW_AT_high_pc	(0x0000000140188dc5)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00134ebc)
+              DW_AT_specification	(0x001021ec "_ZNK9__gnu_cxx17__normal_iteratorIPN16DamageController5MeleeESt6vectorIS2_SaIS2_EEEmiEx")
+
+0x00134ed9: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140188d70)
+              DW_AT_high_pc	(0x0000000140188d7e)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00134ef1)
+              DW_AT_specification	(0x001020c4 "_ZNK9__gnu_cxx17__normal_iteratorIPN16DamageController5MeleeESt6vectorIS2_SaIS2_EEEdeEv")
+
+0x00134f64: DW_TAG_subprogram
+              DW_AT_low_pc	(0x000000014016f0f0)
+              DW_AT_high_pc	(0x000000014016f265)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00134f7c)
+              DW_AT_specification	(0x0011259d "_ZN8Entities16PhysicalKillable11CheckDamageERK10MultiArrayILi2EiER16DamageControllerNS5_4TeamE")
+
+0x001350c5: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140112220)
+              DW_AT_high_pc	(0x0000000140112396)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x001350dd)
+              DW_AT_specification	(0x00112f64 "_ZN16DamageController12PosDangerousENS_4TeamEN4Math6Vector3vecILi2EfEES4_")
+
+0x0013517d: DW_TAG_subprogram
+              DW_AT_low_pc	(0x0000000140178af0)
+              DW_AT_high_pc	(0x0000000140178b08)
+              DW_AT_frame_base	(DW_OP_reg7 RSP)
+              DW_AT_object_pointer	(0x00135195)
+              DW_AT_specification	(0x0010210a "_ZN9__gnu_cxx17__normal_iteratorIPN16DamageController5MeleeESt6vectorIS2_SaIS2_EEEppEv")

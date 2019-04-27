@@ -6,19 +6,47 @@ constexpr ivec2 screen_size(480, 270);
 Interface::Window window("Delta", screen_size * 2, Interface::windowed, ADJUST_G(Interface::WindowSettings{}, min_size = screen_size));
 Graphics::DummyVertexArray dummy_vao;
 
+Audio::Context audio_context;
+
 const Graphics::ShaderConfig shader_config = Graphics::ShaderConfig::Core();
 Interface::ImGuiController gui_controller(shader_config.common_header);
 
-TextureAtlas texture_atlas(ivec2(1024), "assets/_images", "assets/atlas.png", "assets/atlas.refl");
-Graphics::Texture texture_main = Graphics::Texture().Wrap(Graphics::clamp).Interpolation(Graphics::nearest).SetData(texture_atlas.GetImage());
-Render r = ADJUST_G(Render(0x2000, shader_config), SetTexture(texture_main), SetMatrix(fmat4::ortho(screen_size/ivec2(-2,2), screen_size/ivec2(2,-2), -1, 1)));
+TextureAtlas texture_atlas;
+Graphics::Texture texture_main = Graphics::Texture().Wrap(Graphics::clamp).Interpolation(Graphics::nearest);
+Render r = ADJUST_G(Render(0x2000, shader_config), SetMatrix(fmat4::ortho(screen_size/ivec2(-2,2), screen_size/ivec2(2,-2), -1, 1)));
 AdaptiveViewport adaptive_viewport(shader_config, screen_size);
 
 Input::Mouse mouse;
 
-Images images(texture_atlas);
+Images images;
+
+Random random;
 //}
 
+
+namespace Sounds
+{
+    #define SOUND_LIST(x) \
+        x(sword_attack,0.4) \
+        x(death,0.2) \
+
+    #define X(name, random_pitch) \
+        Audio::Buffer _buffer_##name(Audio::Sound(Audio::wav, Audio::mono, "assets/sounds/" #name ".wav")); \
+        Audio::Source name(fvec2 pos, float vol = 1, float pitch = 1)                                       \
+        {                                                                                                   \
+            pitch = pow(2, std::log2(pitch) + float(-random_pitch <= random.real() <= random_pitch));       \
+            return Audio::Source(_buffer_##name).temporary().volume(vol).pitch(pitch).pos(pos);             \
+        }                                                                                                   \
+        Audio::Source name(float vol = 0, float pitch = 0)                                                  \
+        {                                                                                                   \
+            return name(fvec2(0), vol, pitch).relative();                                                   \
+        }                                                                                                   \
+
+    SOUND_LIST(X)
+    #undef X
+
+    #undef SOUND_LIST
+}
 
 namespace Tiles
 {
@@ -191,6 +219,176 @@ struct Hitbox
 
 };
 
+class DamageController
+{
+  public:
+    enum Team {team_player, team_enemies};
+
+  private:
+    struct Melee
+    {
+        Team team = team_enemies;
+        fvec2 pos = fvec2(0);
+        fvec2 half_size = fvec2(0);
+        fvec2 knockback = fvec2(0,-1);
+    };
+
+    std::vector<Melee> melee_objects;
+    std::vector<Melee> melee_objects_next;
+
+  public:
+    DamageController() {}
+
+    void AddMelee(Team team, fvec2 pos, fvec2 size, fvec2 knockback)
+    {
+        Melee &obj = melee_objects_next.emplace_back();
+        obj.team = team;
+        obj.pos = pos;
+        obj.half_size = size/2;
+        obj.knockback = knockback;
+    }
+
+    void Tick()
+    {
+        melee_objects = std::move(melee_objects_next);
+        melee_objects_next.clear();
+    }
+
+    void Render(ivec2 cam_pos) const
+    {
+        auto draw_melee = [&](const Melee &melee)
+        {
+            r.iquad(iround(melee.pos - cam_pos), iround(melee.half_size * 2)).center().color(fvec3(1,0,0)).alpha(0.5);
+        };
+
+        for (const auto &melee : melee_objects)
+            draw_melee(melee);
+        for (const auto &melee : melee_objects_next)
+            draw_melee(melee);
+
+    }
+
+    bool PosDangerous(Team team, fvec2 pos, fvec2 size, fvec2 *dir = 0)
+    {
+        fvec2 half_size = size / 2;
+
+        if (dir)
+            *dir = fvec2(0);
+
+        for (const Melee &melee_obj : melee_objects)
+        {
+            if (melee_obj.team == team)
+                continue;
+
+            if ((abs(melee_obj.pos - pos) < melee_obj.half_size + half_size).all())
+            {
+                if (dir)
+                    *dir = melee_obj.knockback;
+                return 1;
+            }
+        }
+
+        return 0;
+    }
+};
+
+class ParticleControler
+{
+    struct Particle
+    {
+        fvec2 pos = fvec2(0);
+        fvec2 vel = fvec2(0);
+        float drag = 0;
+        float size = 2;
+        fvec2 visual_dir;
+        int ticks = 0;
+        int mid_ticks = 0;
+        int max_ticks = 0;
+        fvec3 color = fvec3(1);
+        float alpha = 1;
+        float beta = 1;
+    };
+
+    std::deque<Particle> particles;
+
+  public:
+    ParticleControler() {}
+
+    void Tick()
+    {
+        for (Particle &par : particles)
+        {
+            par.pos += par.vel;
+            par.vel *= (1 - par.drag);
+            par.ticks++;
+        }
+
+        particles.erase(std::remove_if(particles.begin(), particles.end(), [](const Particle &par){return par.ticks >= par.max_ticks;}), particles.end());
+    }
+
+    void Render(ivec2 cam_pos, ivec2 viewport_size) const
+    {
+        for (const Particle &par : particles)
+        {
+            if ((abs(par.pos - cam_pos) > viewport_size/2 + par.size).any())
+                continue;
+
+            float t;
+            if (par.ticks < par.mid_ticks)
+                t = par.ticks / float(par.mid_ticks);
+            else
+                t = 1 - (par.ticks - par.mid_ticks) / float(par.max_ticks - par.mid_ticks);
+            clamp_var(t);
+
+            r.fquad(par.pos - cam_pos, fvec2(par.size * t)).center().matrix(fmat2(par.visual_dir, par.visual_dir.rot90())).color(par.color).alpha(par.alpha).beta(par.beta);
+        }
+    }
+
+    void AddParticle(fvec2 pos, fvec2 vel, float drag, float size, float angle, int ticks, int mid_ticks, int max_ticks, fvec3 color, float alpha = 1, float beta = 1)
+    {
+        Particle &par = particles.emplace_back();
+        par.pos = pos;
+        par.vel = vel;
+        par.drag = drag;
+        par.size = size;
+        par.visual_dir = fvec2::dir(angle);
+        par.ticks = ticks;
+        par.mid_ticks = mid_ticks;
+        par.max_ticks = max_ticks;
+        par.color = color;
+        par.alpha = alpha;
+        par.beta = beta;
+    }
+
+    void EffectDeath(fvec2 pos, fvec2 vel, float rad, int particle_count, int max_size, float max_vel)
+    {
+        for (int i = 0; i < particle_count; i++)
+        {
+            fvec2 p = pos + fvec2::dir(random.angle(), sqrt(float(0 <= random.real() <= 1)) * rad);
+            fvec2 v = vel + fvec2::dir(random.angle(), max_vel * 0.1 <= random.real() <= max_vel);
+            float size = max_size * 0.1 <= random.real() <= max_size;
+            float color_t = 0 <= random.real() <= 1;
+            fvec3 color = (fvec3(227,35,11) * (1 - color_t) + fvec3(133,4,43) * color_t) / 255;
+
+            float time = 0.1 <= random.real() <= 1;
+
+            AddParticle(p, v, 0.02, size, random.angle(), 0, 15 * time, 90 * time, color, 0.8 <= random.real() <= 1);
+        }
+    }
+};
+
+namespace States // Current state definition
+{
+    struct Base : Meta::polymorphic<Base>
+    {
+        virtual void Tick() = 0;
+        virtual void Render() const = 0;
+        virtual ~Base() = default;
+    };
+
+    Poly::Storage<Base> current_state;
+}
+
 namespace Entities
 {
     struct Camera
@@ -220,6 +418,10 @@ namespace Entities
 
             fvec2 delta = target_point - pos;
             float dist = delta.len();
+
+            if (dist < 0.0001)
+                return;
+
             fvec2 dir = delta / dist;
 
             vel += dir * pow(dist / config.camera.ref_distance, config.camera.power) / config.camera.mass;
@@ -263,6 +465,7 @@ namespace Entities
             fvec2 real_vel = vel + vel_lag;
             ivec2 int_vel = iround(real_vel);
             vel_lag = real_vel - int_vel;
+            vel_lag *= 0.99;
 
             pos += int_vel;
         }
@@ -277,7 +480,7 @@ namespace Entities
             return IsSolidAtAbsolutePos(layer, pos + offset);
         }
 
-        virtual void UpdatePositionAvoidingWalls(const Tiled::TileLayer &layer)
+        void UpdatePositionAvoidingWalls(const Tiled::TileLayer &layer)
         {
             ivec2 new_pos = pos;
             UpdatePosition();
@@ -334,6 +537,9 @@ namespace Entities
             if (!hitbox)
                 Program::Error("Entity has null hitbox.");
 
+            if (IsDead())
+                return 0;
+
             return hitbox->IsSolidAt(layer, pos);
         }
 
@@ -344,9 +550,9 @@ namespace Entities
             return dead_ticks != 0;
         }
 
-        virtual void BecomesDead() {}
+        virtual void BecomesDead(ParticleControler &par) {(void)par;}
 
-        void CheckDamage(const Tiled::TileLayer &layer)
+        void CheckDamage(const Tiled::TileLayer &layer, DamageController &dmg, ParticleControler &par, DamageController::Team team)
         {
             if (!hitbox)
                 Program::Error("Entity has null hitbox.");
@@ -357,60 +563,98 @@ namespace Entities
                 return;
             }
 
+            fvec2 knockback;
+            if (dmg.PosDangerous(team, pos, hitbox->half_extent * 2, &knockback))
+            {
+                dead_ticks = 1;
+                vel += knockback;
+                BecomesDead(par);
+                return;
+            }
+
             if (hitbox->IsDangerousAt(layer, pos))
             {
                 dead_ticks = 1;
-                BecomesDead();
+                BecomesDead(par);
+                return;
             }
         }
 
-        void UpdatePositionAvoidingWalls(const Tiled::TileLayer &layer) override
+        void UpdatePositionAvoidingWalls(const Tiled::TileLayer &layer, DamageController &dmg, ParticleControler &par, DamageController::Team team)
         {
             Physical::UpdatePositionAvoidingWalls(layer);
-            CheckDamage(layer);
+            CheckDamage(layer, dmg, par, team);
         }
     };
 
-    struct Human : PhysicalKillable
+    struct Controllable : Meta::polymorphic<Controllable>, PhysicalKillable
     {
-        struct Controller : Meta::polymorphic<Controller>
-        {
-            virtual bool HoldLeft() const {return 0;}
-            virtual bool HoldRight() const {return 0;}
-            virtual bool PressJump() const {return 0;}
-            virtual bool HoldJump() const {return 0;}
+        int h_dir = 1; // This shouldn't be equal to 0.
 
-            virtual void PreTick(Human &) {}
-            virtual void PostTick(Human &) {}
-            virtual void PreRender(const Human &) const {}
-            virtual void PostRender(const Human &) const {}
-        };
+        virtual void Tick(const Tiled::TileLayer &layer, DamageController &dmg, ParticleControler &par)
+        {
+            (void)layer;
+            (void)dmg;
+            (void)par;
+        }
+        virtual void Render(ivec2 cam_pos) const
+        {
+            (void)cam_pos;
+        }
+    };
+
+    struct Controller : Meta::polymorphic<Controller>
+    {
+        virtual bool HoldLeft() const {return 0;}
+        virtual bool HoldRight() const {return 0;}
+        virtual bool PressJump() const {return 0;}
+        virtual bool HoldJump() const {return 0;}
+        virtual bool PressAttack() const {return 0;}
+
+        virtual void PreTick(Controllable &) {}
+        virtual void PostTick(Controllable &) {}
+        virtual void PreRender(const Controllable &) const {}
+        virtual void PostRender(const Controllable &) const {}
+
+        virtual DamageController::Team GetTeam() const {return DamageController::team_enemies;}
+    };
+
+    struct Knight : Controllable
+    {
+
         Poly::Storage<Controller> controller;
 
         int jump_ticks_left = 0;
+        int attack_timer = 0;
+        float attack_anim_state = -1;
+        int walk_ticks = 0;
 
-        Human()
+        Knight()
         {
             static Hitbox entity_hitbox(ivec2(10,16) / 2);
 
             hitbox = &entity_hitbox;
         }
 
-        void Tick(const Tiled::TileLayer &layer)
+        void Tick(const Tiled::TileLayer &layer, DamageController &dmg, ParticleControler &par) override
         {
             controller->PreTick(*this);
 
             // Gravity
-            vel.y += config.global.gravity;
+            if (!IsDead())
+                vel.y += config.global.gravity;
 
             { // Walking
                 int control = controller->HoldRight() - controller->HoldLeft();
+
                 if (control && (sign(control) != -sign(vel.x) || abs(vel.x) < 0.05))
                 {
                     vel.x += control * config.humans.walk_acc;
 
                     if (abs(vel.x) > config.humans.walk_speed_x)
                         vel.x = sign(vel.x) * config.humans.walk_speed_x;
+
+                    h_dir = control;
                 }
                 else
                 {
@@ -418,6 +662,18 @@ namespace Entities
                         vel.x = 0;
                     else
                         vel.x -= sign(vel.x) * config.humans.walk_dec;
+                }
+            }
+
+            { // Walking animation
+                if (abs(vel.x) > 0.01)
+                {
+                    walk_ticks++;
+                    walk_ticks %= config.humans.knights.walk_anim_ticks;
+                }
+                else
+                {
+                    walk_ticks = 0;
                 }
             }
 
@@ -438,72 +694,133 @@ namespace Entities
                 }
             }
 
-            UpdatePositionAvoidingWalls(layer);
+            { // Attacking
+                if (controller->PressAttack() && attack_timer == 0)
+                {
+                    attack_timer = config.humans.knights.attack_delay + config.humans.knights.attack_cooldown;
+                }
+
+                if (attack_timer > 0)
+                {
+                    if (attack_timer == config.humans.knights.attack_cooldown) // Sic.
+                    {
+                        attack_anim_state = 0;
+                        ivec2 attack_pos = pos + config.humans.knights.attack_center_offset.mul_x(h_dir);
+                        dmg.AddMelee(controller->GetTeam(), attack_pos, config.humans.knights.attack_size, ivec2(h_dir, 0));
+                        Sounds::sword_attack(attack_pos);
+                    }
+
+                    attack_timer--;
+                }
+
+                if (attack_anim_state > -0.5)
+                {
+                    attack_anim_state += 1 / config.humans.knights.attack_anim_ticks;
+
+                    if (attack_anim_state >= 1)
+                        attack_anim_state = -1;
+                }
+            }
+
+            UpdatePositionAvoidingWalls(layer, dmg, par, controller->GetTeam());
             controller->PostTick(*this);
         }
 
-        void Render(ivec2 cam_pos) const
+        void Render(ivec2 cam_pos) const override
         {
             controller->PreRender(*this);
 
             ivec2 screen_pos = pos - cam_pos;
-            r.iquad(screen_pos, images.human.Region(ivec2(0), ivec2(32))).center().alpha(clamp(1 - dead_ticks / 30.));
+
+            { // Body
+                // Lower body
+                constexpr int walk_anim_frames = 4;
+                int legs_state = walk_ticks == 0 ? 0 : 1 + clamp_max(iround(floor(walk_ticks / float(config.humans.knights.walk_anim_ticks) * walk_anim_frames)), walk_anim_frames-1);
+                r.iquad(screen_pos, images.humans.Region(ivec2(legs_state * 32,32), ivec2(32))).center().alpha(clamp(1 - dead_ticks / 15.)).flip_x(h_dir < 0);
+
+                // Upper body
+                ivec2 body_offset = ivec2(0);
+                if (legs_state > walk_anim_frames/2) // Sic.
+                    body_offset = ivec2(0,-1);
+                if (legs_state == 0)
+                    body_offset = ivec2(0, iround(0.5 + 0.5 * sin(window.Ticks() % config.humans.knights.stand_anim_ticks / float(config.humans.knights.stand_anim_ticks) * f_pi * 2)));
+                int body_state = 0;
+                if (attack_timer > config.humans.knights.attack_cooldown) // Sic.
+                    body_state = 1;
+                r.iquad(screen_pos + body_offset, images.humans.Region(ivec2(body_state * 32,0), ivec2(32))).center().alpha(clamp(1 - dead_ticks / 15.)).flip_x(h_dir < 0);
+            }
+
+            // Attack
+            if (attack_anim_state > -0.5)
+            {
+                constexpr int attack_frames = 4;
+                constexpr int effect_size = 32;
+
+                int frame = clamp(iround(floor(attack_anim_state * attack_frames)), 0, attack_frames-1);
+                r.iquad(screen_pos, images.effects.Region(ivec2(frame,0) * effect_size, ivec2(effect_size))).center().flip_x(h_dir < 0);
+            }
 
             controller->PostRender(*this);
         }
 
-        void BecomesDead() override
+        void BecomesDead(ParticleControler &par) override
         {
             controller = Poly::make;
+            par.EffectDeath(pos, vel / 2, 5, 75, 10, 1.5);
+            Sounds::death(pos);
         }
     };
 
-    struct HumanController_Player : Human::Controller
+    struct Controller_Player : Controller
     {
-        Reflect(HumanController_Player)
+        Reflect(Controller_Player)
         (
-            (Input::Button)(left) (=Input::left ),
-            (Input::Button)(right)(=Input::right),
-            (Input::Button)(jump) (=Input::z    ),
+            (Input::Button)(left)  (=Input::left ),
+            (Input::Button)(right) (=Input::right),
+            (Input::Button)(jump)  (=Input::x    ),
+            (Input::Button)(attack)(=Input::z    ),
         )
 
-        bool HoldLeft() const
+        DamageController::Team GetTeam() const override
+        {
+            return DamageController::team_player;
+        }
+
+        bool HoldLeft() const override
         {
             return left.down();
         }
-        bool HoldRight() const
+        bool HoldRight() const override
         {
             return right.down();
         }
-        bool PressJump() const
+        bool PressJump() const override
         {
             return jump.pressed();
         }
-        bool HoldJump() const
+        bool HoldJump() const override
         {
             return jump.down();
+        }
+        bool PressAttack() const override
+        {
+            return attack.pressed();
         }
     };
 }
 
 namespace States
 {
-    struct Base : Meta::polymorphic<Base>
-    {
-        virtual void Tick() = 0;
-        virtual void Render() const = 0;
-        virtual ~Base() = default;
-    };
-
-    Poly::Storage<Base> current_state;
-
     struct Game : Base
     {
         static Game saved_game;
 
         Map map;
-        Entities::Human p;
+        Poly::Storage<Entities::Controllable> p;
         Entities::Camera cam;
+        DamageController dmg;
+        ParticleControler par;
+        std::vector<Poly::Storage<Entities::Controllable>> enemies;
 
         float death_fade = 0;
 
@@ -511,27 +828,65 @@ namespace States
 
         Game(std::string map_name)
         {
+            // Load map.
             map = Map(map_name);
-            p.controller = Poly::make_derived<Entities::HumanController_Player>;
-            p.pos = map.points.GetSinglePoint("player");
 
+            { // Set up player.
+                auto &knight = p.assign<Entities::Knight>();
+                knight.pos = map.points.GetSinglePoint("player");
+                knight.controller = Poly::make_derived<Entities::Controller_Player>;
+                cam.SetPos(knight.pos + ivec2(0,config.camera.y_offset_to_player));
+            }
+
+            { // Set up enemies
+                for (ivec2 pos : map.points.GetPointList("knight"))
+                {
+                    auto &knight = enemies.emplace_back().assign<Entities::Knight>();
+                    knight.pos = pos;
+                    knight.controller = Poly::make;
+                }
+            }
+
+            // Save game.
             saved_game = *this;
         }
 
         void Tick() override
         {
-            p.Tick(map.layer_mid);
-            cam.AddTarget(p.pos + ivec2(0,config.camera.y_offset_to_player));
+            { // Audio
+                Audio::Listener::Position(cam.pos.to_vec3(-config.audio.distance * screen_size.x/2));
+                Audio::Listener::Orientation(fvec3(0,0,1), fvec3(0,-1,0));
+                Audio::Source::DefaultRefDistance(config.audio.ref_distance * screen_size.x/2);
+                Audio::Source::DefaultMaxDistance(config.audio.max_distance * screen_size.x/2);
+                Audio::Source::DefaultRolloffFactor(config.audio.rolloff_factor);
+            }
+
+            // Player
+            p->Tick(map.layer_mid, dmg, par);
+
+            // Enemies
+            for (auto &enemy : enemies)
+                enemy->Tick(map.layer_mid, dmg, par);
+
+            // Particles
+            par.Tick();
+
+            // Camera
+            cam.AddTarget(p->pos + ivec2(0,config.camera.y_offset_to_player));
             cam.Tick();
 
+            // Damage controler
+            dmg.Tick();
 
-            clamp_var(death_fade += (p.IsDead() ? 1 : -1) / float(config.global.death_fade_ticks));
+            // Death fade
+            clamp_var(death_fade += (p->dead_ticks > config.global.death_fade_delay ? 1 : -1) / float(config.global.death_fade_ticks));
             if (death_fade > 0.9999)
             {
                 *this = saved_game;
                 death_fade = 1;
             }
 
+            // Debug gui
             ConfigData::DisplayGui();
         }
 
@@ -543,13 +898,24 @@ namespace States
             r.BindShader();
 
             // Background
-            r.iquad(ivec2(0), screen_size).center().color(fvec3(1));
+            r.iquad(ivec2(0), screen_size).center().color(fvec3(0.5));
 
             // Map
             map.Render(cam.pos_int);
 
+            // Enemies
+            for (const auto &enemy : enemies)
+                enemy->Render(cam.pos_int);
+
             // Player
-            p.Render(cam.pos_int);
+            p->Render(cam.pos_int);
+
+            // Particles
+            par.Render(cam.pos_int, screen_size);
+
+            // Damage sources (debug)
+            if (config.debug.draw_damage_areas)
+                dmg.Render(cam.pos_int);
 
             { // Death fade
                 if (death_fade > 0.0001)
@@ -587,6 +953,15 @@ int main()
     };
     Resize();
 
+    auto ReloadTextures = [&]
+    {
+        texture_atlas = TextureAtlas(ivec2(1024), "assets/_images", "assets/atlas.png", "assets/atlas.refl");
+        images = Images(texture_atlas);
+        texture_main.SetData(texture_atlas.GetImage());
+    };
+    ReloadTextures();
+    r.SetTexture(texture_main);
+
     States::current_state = {Poly::make_derived<States::Game>, "prologue"};
 
     Metronome metronome(60);
@@ -609,6 +984,11 @@ int main()
 
             gui_controller.PreTick();
             States::current_state->Tick();
+            audio_context.Tick();
+            Audio::CheckErrors();
+
+            if (Input::Button(Input::f5).pressed())
+                ReloadTextures();
         }
 
         gui_controller.PreRender();

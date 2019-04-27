@@ -1,7 +1,18 @@
 {
+    debug = {
+        draw_damage_areas = false,
+    },
+    audio = {
+        volume = 1,
+        distance = 3,
+        ref_distance = 3,
+        max_distance = 4,
+        rolloff_factor = 1,
+    },
     global = {
-        gravity = 0.300000012,
+        gravity = 0.150000006,
         death_fade_ticks = 40,
+        death_fade_delay = 30,
     },
     camera = {
         ref_distance = 50,
@@ -11,10 +22,19 @@
         y_offset_to_player = -16,
     },
     humans = {
+        knights = {
+            attack_delay = 11,
+            attack_cooldown = 11,
+            attack_center_offset = (10, -2),
+            attack_size = (8, 12),
+            attack_anim_ticks = 8,
+            walk_anim_ticks = 20,
+            stand_anim_ticks = 250,
+        },
         walk_acc = 0.150000006,
         walk_dec = 0.449999988,
         walk_speed_x = 2.20000005,
-        jump_speed = 3,
-        jump_ticks = 8,
+        jump_speed = 2,
+        jump_ticks = 6,
     },
 }

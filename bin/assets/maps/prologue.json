@@ -29,6 +29,18 @@
                  "width":0,
                  "x":126,
                  "y":108
+                }, 
+                {
+                 "height":0,
+                 "id":2,
+                 "name":"knight",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":66,
+                 "y":108
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -37,7 +49,7 @@
          "y":0
         }],
  "nextlayerid":5,
- "nextobjectid":2,
+ "nextobjectid":3,
  "orientation":"orthogonal",
  "renderorder":"left-up",
  "tiledversion":"1.2.3",

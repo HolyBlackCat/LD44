@@ -1,7 +1,10 @@
 #pragma once
 
+#include <deque>
 #include <iostream>
+#include <vector>
 
+#include "audio/complete.h"
 #include "gameutils/adaptive_viewport.h"
 #include "gameutils/config.h"
 #include "gameutils/render.h"
@@ -20,3 +23,4 @@
 #include "utils/meta.h"
 #include "utils/metronome.h"
 #include "utils/poly_storage.h"
+#include "utils/random.h"

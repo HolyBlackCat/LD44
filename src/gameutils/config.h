@@ -25,18 +25,7 @@ template <typename T> class Config
         using refl_t = Refl::Interface<X>;
         auto refl = refl_t(object);
 
-        if constexpr (refl_t::is_structure)
-        {
-            if (ImGui::CollapsingHeader(name.c_str()))
-            {
-                refl.for_each_field([&](auto index)
-                {
-                    constexpr int i = index.value;
-                    DisplayGuiLow(refl.template field_value<i>(), refl.field_name(i));
-                });
-            }
-        }
-        else if constexpr (std::is_same_v<X, int>)
+        if constexpr (std::is_same_v<X, int>)
         {
             if (ImGui::InputInt(name.c_str(), &object))
                 was_modified_in_gui = 1;
@@ -85,6 +74,24 @@ template <typename T> class Config
         {
             if (ImGui::InputTextMultiline(name.c_str(), &object))
                 was_modified_in_gui = 1;
+        }
+        else if constexpr (std::is_same_v<X, bool>)
+        {
+            if (ImGui::Checkbox(name.c_str(), &object))
+                was_modified_in_gui = 1;
+        }
+        else if constexpr (refl_t::is_structure)
+        {
+            if (ImGui::CollapsingHeader(name.c_str()))
+            {
+                ImGui::Indent();
+                refl.for_each_field([&](auto index)
+                {
+                    constexpr int i = index.value;
+                    DisplayGuiLow(refl.template field_value<i>(), refl.field_name(i));
+                });
+                ImGui::Unindent();
+            }
         }
         else
         {
@@ -188,11 +195,13 @@ template <typename T> class Config
         {
             auto refl = Refl::Interface<T>(object);
 
+            ImGui::PushItemWidth(iround(ImGui::GetWindowContentRegionWidth() * 0.4));
             refl.for_each_field([&](auto index)
             {
                 constexpr int i = index.value;
                 DisplayGuiLow(refl.template field_value<i>(), refl.field_name(i));
             });
+            ImGui::PopItemWidth();
         }
         ImGui::End();
     }
