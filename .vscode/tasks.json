@@ -13,15 +13,15 @@
         {
             "label": "Build & Run",
             "type": "shell",
-            "windows": {"command": "mingw32-make -j4 && cd bin && imp-re.exe"},
-            "linux": {"command": "make -j4 && cd bin && ./imp-re"},
+            "windows": {"command": "mingw32-make -j4 && cd bin && LD44.exe"},
+            "linux": {"command": "make -j4 && cd bin && ./LD44"},
             "presentation": {"echo": true, "reveal": "always", "focus": false, "panel": "shared", "showReuseMessage": false, "clear": true},
         },
         {
             "label": "Run",
             "type": "shell",
-            "windows": {"command": "cd bin && imp-re.exe"},
-            "linux": {"command": "cd bin && ./imp-re"},
+            "windows": {"command": "cd bin && LD44.exe"},
+            "linux": {"command": "cd bin && ./LD44"},
             "presentation": {"echo": true, "reveal": "always", "focus": false, "panel": "shared", "showReuseMessage": false, "clear": true},
         },
         {

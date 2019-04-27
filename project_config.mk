@@ -5,7 +5,7 @@ SOURCE_DIRS := src lib
 OBJECT_DIR := obj
 
 # Resulting binary
-OUTPUT_FILE := bin/imp-re
+OUTPUT_FILE := bin/LD44
 LINKER_MODE := CXX
 
 # Flags

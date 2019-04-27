@@ -8,7 +8,7 @@
             "name": "Debug",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/bin/imp-re",
+            "program": "${workspaceFolder}/bin/LD44",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}/bin",
