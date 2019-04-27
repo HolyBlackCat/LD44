@@ -1,0 +1,20 @@
+{
+    global = {
+        gravity = 0.300000012,
+        death_fade_ticks = 40,
+    },
+    camera = {
+        ref_distance = 50,
+        power = 1.5,
+        mass = 20,
+        drag = 0.0500000007,
+        y_offset_to_player = -16,
+    },
+    humans = {
+        walk_acc = 0.150000006,
+        walk_dec = 0.449999988,
+        walk_speed_x = 2.20000005,
+        jump_speed = 3,
+        jump_ticks = 8,
+    },
+}
