@@ -7,7 +7,7 @@ struct Images
 {
     Reflect(Images)
     (
-        (TextureAtlas::Image)(tiles,humans,effects),
+        (TextureAtlas::Image)(tiles,humans,effects,font,dialogue,bg1,darkness),
     )
 
     Images() {}

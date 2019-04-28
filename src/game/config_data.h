@@ -18,6 +18,7 @@ struct ConfigData
     ))
 
     ReflectStruct(Global,(
+        (float)(darkness_alpha)(=1),
         (float)(gravity)(=0),
         (int)(death_fade_ticks)(=10),
         (int)(death_fade_delay)(=30),
@@ -29,6 +30,15 @@ struct ConfigData
         (float)(mass)(=50),
         (float)(drag)(=0.01),
         (float)(y_offset_to_player)(=-32),
+    ))
+
+    ReflectStruct(Speech, (
+        (int)(max_lines)(=3),
+        (int)(ticks_per_letter)(=5),
+        (ivec2)(text_offset)(=ivec2(32,16)),
+        (ivec2)(key_hint_offset)(=ivec2(-16)),
+        (int)(key_hint_blink_period)(=10),
+        (int)(movement_anim_ticks)(=30),
     ))
 
     ReflectStruct(Knights,(
@@ -54,6 +64,7 @@ struct ConfigData
         (Audio)(audio),
         (Global)(global),
         (Camera)(camera),
+        (Speech)(speech),
         (Humans)(humans),
     )
 

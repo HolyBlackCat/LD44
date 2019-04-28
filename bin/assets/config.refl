@@ -10,6 +10,7 @@
         rolloff_factor = 1,
     },
     global = {
+        darkness_alpha = 0.600000024,
         gravity = 0.150000006,
         death_fade_ticks = 40,
         death_fade_delay = 30,
@@ -20,6 +21,14 @@
         mass = 20,
         drag = 0.0500000007,
         y_offset_to_player = -16,
+    },
+    speech = {
+        max_lines = 4,
+        ticks_per_letter = 5,
+        text_offset = (65, 15),
+        key_hint_offset = (-16, -16),
+        key_hint_blink_period = 50,
+        movement_anim_ticks = 30,
     },
     humans = {
         knights = {
